@@ -1,6 +1,6 @@
 ---
-name: setup-artist
-description: Set up and work in artist directories. Use when setting up a new artist workspace, adding or updating artist context (identity, brand, voice, audience), adding songs, organizing files inside an artist directory, or figuring out where something belongs. Also use when the user mentions an artist by name and the task involves their files, context, or content — even if they don't say "artist directory." This includes tasks like researching an artist, creating content for an artist, updating an artist's brand, or adding a face guide. If you're unsure whether a task involves an artist workspace, check for a RECOUP.md file at the directory root.
+name: artist-workspace
+description: How to work in artist directories. Use when adding or updating artist context (identity, brand, voice, audience), adding songs, organizing files inside an artist directory, or figuring out where something belongs. Also use when the user mentions an artist by name and the task involves their files, context, or content — even if they don't say "artist directory." This includes tasks like researching an artist, creating content for an artist, updating an artist's brand, or adding a face guide.
 ---
 
 # Artist Workspace
@@ -9,34 +9,9 @@ Every artist has a workspace — a directory that holds context, songs, and refe
 
 Artist directories live inside the sandbox at `orgs/{org}/artists/{artist-slug}/`.
 
-## Setting Up a New Artist
+## Entering an Artist Workspace
 
-When `setup-sandbox` creates an artist folder, it writes a `RECOUP.md` with `status: not-setup`. To mark it ready:
-
-1. Navigate to the artist folder and read `RECOUP.md`:
-
-```bash
-cd orgs/{org}/artists/{artist-slug}
-cat RECOUP.md
-```
-
-2. Change `status` from `not-setup` to `active`. Remove the body text that says "Run the setup-artist skill."
-
-3. Commit and push:
-
-```bash
-git add -A
-git commit -m "setup: activate {artist-name} workspace"
-git push origin main
-```
-
-Don't create any files or directories yet. They get created when real content arrives.
-
----
-
-## Entering an Existing Workspace
-
-When starting work in an artist directory that's already active:
+When starting work in an artist directory:
 
 1. Read `RECOUP.md` to confirm you're in an artist workspace and get the artist's name, slug, and ID.
 2. Check what exists — `ls` the directory to see which files and folders are already there.
@@ -83,38 +58,7 @@ The most important file in the workspace. Defines identity, brand, voice, aesthe
 
 Create it when you have real information. A partial profile with real data beats a complete template with placeholders. Don't fabricate details you don't know — leave sections out rather than guessing.
 
-Read `references/artist-template.md` when creating `artist.md` for the first time — it has the full section-by-section structure. Here's what a filled one looks like for a bedroom-pop artist (every artist will look different):
-
-```markdown
----
-name: Artist
-description: "The complete profile for Gatsby Grace."
----
-
-20-year-old homeschooled bedroom-pop pianist.
-
-## Personality
-
-Shy, introverted, chronically online, ADHD, overthinks everything.
-
-## Genre
-
-Bedroom Pop — Piano Pop, Lo-fi Pop, Confessional Pop.
-
-## Aesthetic
-
-Cozy melancholia — the world is seen from the bedroom.
-
-## Voice
-
-Honest, conversational, a little awkward — like reading someone's private diary.
-
-## Tone
-
-Lowercase everything. No marketing language. No forced slang.
-```
-
-A hip-hop artist's `artist.md` would have completely different sections — maybe street fashion, studio settings, aggressive visual style. The template is a starting point, not a formula.
+Read `references/artist-template.md` for the section-by-section structure when creating one for the first time. See `references/artist-example.md` for what a filled one looks like.
 
 ### Audience Context (`context/audience.md`)
 

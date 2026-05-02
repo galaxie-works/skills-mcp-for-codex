@@ -1,0 +1,832 @@
+[
+  {
+    "url": "https://skills.sh/beeltec/skills/elementor-content",
+    "repo": "beeltec/skills",
+    "repo_slug": "beeltec-skills",
+    "source_prefix": "",
+    "skill_name": "elementor-content",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\elementor-content",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/peixotorms/odinlayer-skills/elementor-development",
+    "repo": "peixotorms/odinlayer-skills",
+    "repo_slug": "peixotorms-odinlayer-skills",
+    "source_prefix": "plugins/wp-skills/skills/elementor-development/resources",
+    "skill_name": "elementor-development",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\elementor-development",
+    "local_exists": true,
+    "blob_count": 2
+  },
+  {
+    "url": "https://skills.sh/jezweb/claude-skills/wordpress-elementor",
+    "repo": "jezweb/claude-skills",
+    "repo_slug": "jezweb-claude-skills",
+    "source_prefix": "",
+    "skill_name": "wordpress-elementor",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\wordpress-elementor",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/peixotorms/odinlayer-skills/elementor-hooks",
+    "repo": "peixotorms/odinlayer-skills",
+    "repo_slug": "peixotorms-odinlayer-skills",
+    "source_prefix": "",
+    "skill_name": "elementor-hooks",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\elementor-hooks",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/peixotorms/odinlayer-skills/elementor-controls",
+    "repo": "peixotorms/odinlayer-skills",
+    "repo_slug": "peixotorms-odinlayer-skills",
+    "source_prefix": "",
+    "skill_name": "elementor-controls",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\elementor-controls",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/wpgaurav/generateblocks-skills/elementor-to-generateblocks",
+    "repo": "wpgaurav/generateblocks-skills",
+    "repo_slug": "wpgaurav-generateblocks-skills",
+    "source_prefix": "skills/elementor-to-generateblocks/../generateblocks-layouts/references/svg-icons.md",
+    "skill_name": "elementor-to-generateblocks",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 1
+  },
+  {
+    "url": "https://skills.sh/vercel-labs/skills/find-skills",
+    "repo": "vercel-labs/skills",
+    "repo_slug": "vercel-labs-skills",
+    "source_prefix": "",
+    "skill_name": "find-skills",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\find-skills",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/bobmatnyc/claude-mpm-skills/wordpress-testing-qa",
+    "repo": "bobmatnyc/claude-mpm-skills",
+    "repo_slug": "bobmatnyc-claude-mpm-skills",
+    "source_prefix": "",
+    "skill_name": "wordpress-testing-qa",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/nicepkg/ai-workflow/seo-wordpress-manager",
+    "repo": "nicepkg/ai-workflow",
+    "repo_slug": "nicepkg-ai-workflow",
+    "source_prefix": "",
+    "skill_name": "seo-wordpress-manager",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\seo-wordpress-manager",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/5unnykum4r/wordpress-mcp/wordpress-mcp",
+    "repo": "5unnykum4r/wordpress-mcp",
+    "repo_slug": "5unnykum4r-wordpress-mcp",
+    "source_prefix": "",
+    "skill_name": "wordpress-mcp",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/borghei/claude-skills/product-designer",
+    "repo": "borghei/claude-skills",
+    "repo_slug": "borghei-claude-skills",
+    "source_prefix": "",
+    "skill_name": "product-designer",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\product-designer",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/squirrelscan/skills/audit-website",
+    "repo": "squirrelscan/skills",
+    "repo_slug": "squirrelscan-skills",
+    "source_prefix": "audit-website/references/OUTPUT-FORMAT.md",
+    "skill_name": "audit-website",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\audit-website",
+    "local_exists": true,
+    "blob_count": 1
+  },
+  {
+    "url": "https://skills.sh/jamesgray007/hoai-course/writing-linkedin-posts",
+    "repo": "jamesgray007/hoai-course",
+    "repo_slug": "jamesgray007-hoai-course",
+    "source_prefix": "",
+    "skill_name": "writing-linkedin-posts",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\writing-linkedin-posts",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/inferen-sh/skills/technical-blog-writing",
+    "repo": "inferen-sh/skills",
+    "repo_slug": "inferen-sh-skills",
+    "source_prefix": "",
+    "skill_name": "technical-blog-writing",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\technical-blog-writing",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/coreyhaines31/marketingskills/ad-creative",
+    "repo": "coreyhaines31/marketingskills",
+    "repo_slug": "coreyhaines31-marketingskills",
+    "source_prefix": "skills/ad-creative",
+    "skill_name": "ad-creative",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\ad-creative--coreyhaines31-marketingskills",
+    "local_exists": true,
+    "blob_count": 7
+  },
+  {
+    "url": "https://skills.sh/github/awesome-copilot/documentation-writer",
+    "repo": "github/awesome-copilot",
+    "repo_slug": "github-awesome-copilot",
+    "source_prefix": "",
+    "skill_name": "documentation-writer",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\documentation-writer",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/composiohq/awesome-claude-skills/content-research-writer",
+    "repo": "composiohq/awesome-claude-skills",
+    "repo_slug": "composiohq-awesome-claude-skills",
+    "source_prefix": "",
+    "skill_name": "content-research-writer",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\content-research-writer",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/seo-content-writer",
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "repo_slug": "aaron-he-zhu-seo-geo-claude-skills",
+    "source_prefix": "",
+    "skill_name": "seo-content-writer",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\seo-content-writer",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator",
+    "repo": "jimliu/baoyu-skills",
+    "repo_slug": "jimliu-baoyu-skills",
+    "source_prefix": "skills/baoyu-article-illustrator/references",
+    "skill_name": "baoyu-article-illustrator",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\baoyu-article-illustrator",
+    "local_exists": true,
+    "blob_count": 11
+  },
+  {
+    "url": "https://skills.sh/affaan-m/everything-claude-code/article-writing",
+    "repo": "affaan-m/everything-claude-code",
+    "repo_slug": "affaan-m-everything-claude-code",
+    "source_prefix": "",
+    "skill_name": "article-writing",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
+    "repo": "coreyhaines31/marketingskills",
+    "repo_slug": "coreyhaines31-marketingskills",
+    "source_prefix": "skills/copywriting/references",
+    "skill_name": "copywriting",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\copywriting--coreyhaines31-marketingskills",
+    "local_exists": true,
+    "blob_count": 2
+  },
+  {
+    "url": "https://skills.sh/obra/superpowers/writing-plans",
+    "repo": "obra/superpowers",
+    "repo_slug": "obra-superpowers",
+    "source_prefix": "",
+    "skill_name": "writing-plans",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\writing-plans",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/obra/superpowers/executing-plans",
+    "repo": "obra/superpowers",
+    "repo_slug": "obra-superpowers",
+    "source_prefix": "",
+    "skill_name": "executing-plans",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\executing-plans",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/coreyhaines31/marketingskills/content-strategy",
+    "repo": "coreyhaines31/marketingskills",
+    "repo_slug": "coreyhaines31-marketingskills",
+    "source_prefix": "skills/content-strategy/references/headless-cms.md",
+    "skill_name": "content-strategy",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\content-strategy--coreyhaines31-marketingskills",
+    "local_exists": true,
+    "blob_count": 1
+  },
+  {
+    "url": "https://skills.sh/coreyhaines31/marketingskills/marketing-ideas",
+    "repo": "coreyhaines31/marketingskills",
+    "repo_slug": "coreyhaines31-marketingskills",
+    "source_prefix": "skills/marketing-ideas/references/ideas-by-category.md",
+    "skill_name": "marketing-ideas",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\marketing-ideas--coreyhaines31-marketingskills",
+    "local_exists": true,
+    "blob_count": 1
+  },
+  {
+    "url": "https://skills.sh/coreyhaines31/marketingskills/pricing-strategy",
+    "repo": "coreyhaines31/marketingskills",
+    "repo_slug": "coreyhaines31-marketingskills",
+    "source_prefix": "skills/pricing-strategy/references",
+    "skill_name": "pricing-strategy",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\pricing-strategy--coreyhaines31-marketingskills",
+    "local_exists": true,
+    "blob_count": 2
+  },
+  {
+    "url": "https://skills.sh/coreyhaines31/marketingskills/analytics-tracking",
+    "repo": "coreyhaines31/marketingskills",
+    "repo_slug": "coreyhaines31-marketingskills",
+    "source_prefix": "skills/analytics-tracking",
+    "skill_name": "analytics-tracking",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\analytics-tracking--coreyhaines31-marketingskills",
+    "local_exists": true,
+    "blob_count": 9
+  },
+  {
+    "url": "https://skills.sh/coreyhaines31/marketingskills/email-sequence",
+    "repo": "coreyhaines31/marketingskills",
+    "repo_slug": "coreyhaines31-marketingskills",
+    "source_prefix": "skills/email-sequence",
+    "skill_name": "email-sequence",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\email-sequence",
+    "local_exists": true,
+    "blob_count": 10
+  },
+  {
+    "url": "https://skills.sh/coreyhaines31/marketingskills/onboarding-cro",
+    "repo": "coreyhaines31/marketingskills",
+    "repo_slug": "coreyhaines31-marketingskills",
+    "source_prefix": "skills/onboarding-cro/references/experiments.md",
+    "skill_name": "onboarding-cro",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 1
+  },
+  {
+    "url": "https://skills.sh/anthropics/skills/brand-guidelines",
+    "repo": "anthropics/skills",
+    "repo_slug": "anthropics-skills",
+    "source_prefix": "",
+    "skill_name": "brand-guidelines",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\brand-guidelines--anthropics-skills",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/davila7/claude-code-templates/google-analytics",
+    "repo": "davila7/claude-code-templates",
+    "repo_slug": "davila7-claude-code-templates",
+    "source_prefix": "cli-tool/components/skills/analytics/google-analytics",
+    "skill_name": "google-analytics",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 2
+  },
+  {
+    "url": "https://skills.sh/kostja94/marketing-skills/google-search-console",
+    "repo": "kostja94/marketing-skills",
+    "repo_slug": "kostja94-marketing-skills",
+    "source_prefix": "",
+    "skill_name": "google-search-console",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/expo/skills/expo-tailwind-setup",
+    "repo": "expo/skills",
+    "repo_slug": "expo-skills",
+    "source_prefix": "",
+    "skill_name": "expo-tailwind-setup",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\expo-tailwind-setup",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/wshobson/agents/tailwind-design-system",
+    "repo": "wshobson/agents",
+    "repo_slug": "wshobson-agents",
+    "source_prefix": "plugins/frontend-mobile-development/skills/tailwind-design-system/references/advanced-patterns.md",
+    "skill_name": "tailwind-design-system",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\tailwind-design-system--wshobson-agents",
+    "local_exists": true,
+    "blob_count": 1
+  },
+  {
+    "url": "https://skills.sh/jezweb/claude-skills/tailwind-v4-shadcn",
+    "repo": "jezweb/claude-skills",
+    "repo_slug": "jezweb-claude-skills",
+    "source_prefix": "",
+    "skill_name": "tailwind-v4-shadcn",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/josiahsiegel/claude-plugin-marketplace/tailwindcss-advanced-layouts",
+    "repo": "josiahsiegel/claude-plugin-marketplace",
+    "repo_slug": "josiahsiegel-claude-plugin-marketplace",
+    "source_prefix": "",
+    "skill_name": "tailwindcss-advanced-layouts",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\tailwindcss-advanced-layouts",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/giuseppe-trisciuoglio/developer-kit/tailwind-css-patterns",
+    "repo": "giuseppe-trisciuoglio/developer-kit",
+    "repo_slug": "giuseppe-trisciuoglio-developer-kit",
+    "source_prefix": "plugins/developer-kit-typescript/skills/tailwind-css-patterns/references",
+    "skill_name": "tailwind-css-patterns",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\tailwind-css-patterns",
+    "local_exists": true,
+    "blob_count": 8
+  },
+  {
+    "url": "https://skills.sh/charon-fan/agent-playbook/self-improving-agent",
+    "repo": "charon-fan/agent-playbook",
+    "repo_slug": "charon-fan-agent-playbook",
+    "source_prefix": "",
+    "skill_name": "self-improving-agent",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\self-improving-agent--charon-fan-agent-playbook",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/supercent-io/skills-template/task-planning",
+    "repo": "supercent-io/skills-template",
+    "repo_slug": "supercent-io-skills-template",
+    "source_prefix": "",
+    "skill_name": "task-planning",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\task-planning",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/supercent-io/skills-template/task-estimation",
+    "repo": "supercent-io/skills-template",
+    "repo_slug": "supercent-io-skills-template",
+    "source_prefix": "",
+    "skill_name": "task-estimation",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\task-estimation",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
+    "repo": "vercel-labs/agent-skills",
+    "repo_slug": "vercel-labs-agent-skills",
+    "source_prefix": "",
+    "skill_name": "web-design-guidelines",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\web-design-guidelines",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "repo_slug": "nextlevelbuilder-ui-ux-pro-max-skill",
+    "source_prefix": "",
+    "skill_name": "ui-ux-pro-max",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\ui-ux-pro-max--nextlevelbuilder-ui-ux-pro-max-skill",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/pexoai/pexo-skills/videoagent-audio-studio",
+    "repo": "pexoai/pexo-skills",
+    "repo_slug": "pexoai-pexo-skills",
+    "source_prefix": "skills/videoagent-audio-studio/audio_url",
+    "skill_name": "videoagent-audio-studio",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\videoagent-audio-studio",
+    "local_exists": true,
+    "blob_count": 1
+  },
+  {
+    "url": "https://skills.sh/apify/agent-skills/apify-trend-analysis",
+    "repo": "apify/agent-skills",
+    "repo_slug": "apify-agent-skills",
+    "source_prefix": "",
+    "skill_name": "apify-trend-analysis",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\apify-trend-analysis",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/yangliu2060/smith--skills/social-trend-monitor",
+    "repo": "yangliu2060/smith--skills",
+    "repo_slug": "yangliu2060-smith--skills",
+    "source_prefix": "",
+    "skill_name": "social-trend-monitor",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\social-trend-monitor",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/drshailesh88/integrated_content_os/social-media-trends-research",
+    "repo": "drshailesh88/integrated_content_os",
+    "repo_slug": "drshailesh88-integrated_content_os",
+    "source_prefix": "",
+    "skill_name": "social-media-trends-research",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\social-media-trends-research",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/drshailesh88/integrated_content_os/content-marketing-social-listening",
+    "repo": "drshailesh88/integrated_content_os",
+    "repo_slug": "drshailesh88-integrated_content_os",
+    "source_prefix": "",
+    "skill_name": "content-marketing-social-listening",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\content-marketing-social-listening",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/404kidwiz/claude-supercode-skills/trend-analyst",
+    "repo": "404kidwiz/claude-supercode-skills",
+    "repo_slug": "404kidwiz-claude-supercode-skills",
+    "source_prefix": "",
+    "skill_name": "trend-analyst",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\trend-analyst",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/sickn33/antigravity-awesome-skills/instagram-automation",
+    "repo": "sickn33/antigravity-awesome-skills",
+    "repo_slug": "sickn33-antigravity-awesome-skills",
+    "source_prefix": "",
+    "skill_name": "instagram-automation",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\instagram-automation",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/cowork-os/cowork-os/spotify-player",
+    "repo": "cowork-os/cowork-os",
+    "repo_slug": "cowork-os-cowork-os",
+    "source_prefix": "",
+    "skill_name": "spotify-player",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\spotify-player",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/bradautomates/head-of-content/instagram-research",
+    "repo": "bradautomates/head-of-content",
+    "repo_slug": "bradautomates-head-of-content",
+    "source_prefix": "",
+    "skill_name": "instagram-research",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\instagram-research",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/claude-office-skills/skills/spotify-automation",
+    "repo": "claude-office-skills/skills",
+    "repo_slug": "claude-office-skills-skills",
+    "source_prefix": "",
+    "skill_name": "spotify-automation",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\spotify-automation",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/eddiebe147/claude-settings/instagram-strategist",
+    "repo": "eddiebe147/claude-settings",
+    "repo_slug": "eddiebe147-claude-settings",
+    "source_prefix": "",
+    "skill_name": "instagram-strategist",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\instagram-strategist",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/recoupable/setup-artist/setup-artist",
+    "repo": "recoupable/setup-artist",
+    "repo_slug": "recoupable-setup-artist",
+    "source_prefix": "",
+    "skill_name": "setup-artist",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\setup-artist",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/claude-office-skills/skills/tiktok-marketing",
+    "repo": "claude-office-skills/skills",
+    "repo_slug": "claude-office-skills-skills",
+    "source_prefix": "",
+    "skill_name": "tiktok-marketing",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\tiktok-marketing",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/bradautomates/head-of-content/tiktok-research",
+    "repo": "bradautomates/head-of-content",
+    "repo_slug": "bradautomates-head-of-content",
+    "source_prefix": "",
+    "skill_name": "tiktok-research",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\tiktok-research",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/sickn33/antigravity-awesome-skills/tiktok-automation",
+    "repo": "sickn33/antigravity-awesome-skills",
+    "repo_slug": "sickn33-antigravity-awesome-skills",
+    "source_prefix": "",
+    "skill_name": "tiktok-automation",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\tiktok-automation",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/openai/skills/figma-implement-design",
+    "repo": "openai/skills",
+    "repo_slug": "openai-skills",
+    "source_prefix": "skills/.curated/figma-implement-design/..",
+    "skill_name": "figma-implement-design",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\figma-implement-design",
+    "local_exists": true,
+    "blob_count": 4
+  },
+  {
+    "url": "https://skills.sh/shubhamsaboo/awesome-llm-apps/strategy-advisor",
+    "repo": "shubhamsaboo/awesome-llm-apps",
+    "repo_slug": "shubhamsaboo-awesome-llm-apps",
+    "source_prefix": "",
+    "skill_name": "strategy-advisor",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/deanpeters/product-manager-skills/prioritization-advisor",
+    "repo": "deanpeters/product-manager-skills",
+    "repo_slug": "deanpeters-product-manager-skills",
+    "source_prefix": "skills/prioritization-advisor/../workshop-facilitation/SKILL.md",
+    "skill_name": "prioritization-advisor",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 1
+  },
+  {
+    "url": "https://skills.sh/deanpeters/product-manager-skills/epic-breakdown-advisor",
+    "repo": "deanpeters/product-manager-skills",
+    "repo_slug": "deanpeters-product-manager-skills",
+    "source_prefix": "skills/epic-breakdown-advisor/../workshop-facilitation/SKILL.md",
+    "skill_name": "epic-breakdown-advisor",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 1
+  },
+  {
+    "url": "https://skills.sh/borghei/claude-skills/cfo-advisor",
+    "repo": "borghei/claude-skills",
+    "repo_slug": "borghei-claude-skills",
+    "source_prefix": "",
+    "skill_name": "cfo-advisor",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/borghei/claude-skills/cmo-advisor",
+    "repo": "borghei/claude-skills",
+    "repo_slug": "borghei-claude-skills",
+    "source_prefix": "",
+    "skill_name": "cmo-advisor",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/borghei/claude-skills/coo-advisor",
+    "repo": "borghei/claude-skills",
+    "repo_slug": "borghei-claude-skills",
+    "source_prefix": "",
+    "skill_name": "coo-advisor",
+    "local_target": null,
+    "local_exists": false,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/softaworks/agent-toolkit/mermaid-diagrams",
+    "repo": "softaworks/agent-toolkit",
+    "repo_slug": "softaworks-agent-toolkit",
+    "source_prefix": "skills/mermaid-diagrams/references",
+    "skill_name": "mermaid-diagrams",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\mermaid-diagrams",
+    "local_exists": true,
+    "blob_count": 7
+  },
+  {
+    "url": "https://skills.sh/imxv/pretty-mermaid-skills/pretty-mermaid",
+    "repo": "imxv/pretty-mermaid-skills",
+    "repo_slug": "imxv-pretty-mermaid-skills",
+    "source_prefix": "references",
+    "skill_name": "pretty-mermaid",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\pretty-mermaid",
+    "local_exists": true,
+    "blob_count": 2
+  },
+  {
+    "url": "https://skills.sh/inferen-sh/skills/case-study-writing",
+    "repo": "inferen-sh/skills",
+    "repo_slug": "inferen-sh-skills",
+    "source_prefix": "",
+    "skill_name": "case-study-writing",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\case-study-writing",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/dkyazzentwatwa/chatgpt-skills/audio-analyzer",
+    "repo": "dkyazzentwatwa/chatgpt-skills",
+    "repo_slug": "dkyazzentwatwa-chatgpt-skills",
+    "source_prefix": "",
+    "skill_name": "audio-analyzer",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\audio-analyzer",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/dkyazzentwatwa/chatgpt-skills/audio-converter",
+    "repo": "dkyazzentwatwa/chatgpt-skills",
+    "repo_slug": "dkyazzentwatwa-chatgpt-skills",
+    "source_prefix": "",
+    "skill_name": "audio-converter",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\audio-converter",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/jwynia/agent-skills/musical-dna",
+    "repo": "jwynia/agent-skills",
+    "repo_slug": "jwynia-agent-skills",
+    "source_prefix": "",
+    "skill_name": "musical-dna",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\musical-dna",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/github/awesome-copilot/dataverse-python-advanced-patterns",
+    "repo": "github/awesome-copilot",
+    "repo_slug": "github-awesome-copilot",
+    "source_prefix": "",
+    "skill_name": "dataverse-python-advanced-patterns",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\dataverse-python-advanced-patterns",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/github/awesome-copilot/dataverse-python-production-code",
+    "repo": "github/awesome-copilot",
+    "repo_slug": "github-awesome-copilot",
+    "source_prefix": "",
+    "skill_name": "dataverse-python-production-code",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\dataverse-python-production-code",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/wshobson/agents/python-error-handling",
+    "repo": "wshobson/agents",
+    "repo_slug": "wshobson-agents",
+    "source_prefix": "",
+    "skill_name": "python-error-handling",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\python-error-handling",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/jeffallan/claude-skills/java-architect",
+    "repo": "jeffallan/claude-skills",
+    "repo_slug": "jeffallan-claude-skills",
+    "source_prefix": "",
+    "skill_name": "java-architect",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\java-architect",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/github/awesome-copilot/javascript-typescript-jest",
+    "repo": "github/awesome-copilot",
+    "repo_slug": "github-awesome-copilot",
+    "source_prefix": "",
+    "skill_name": "javascript-typescript-jest",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\javascript-typescript-jest",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/wshobson/agents/modern-javascript-patterns",
+    "repo": "wshobson/agents",
+    "repo_slug": "wshobson-agents",
+    "source_prefix": "plugins/javascript-typescript/skills/modern-javascript-patterns/references/advanced-patterns.md",
+    "skill_name": "modern-javascript-patterns",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\modern-javascript-patterns",
+    "local_exists": true,
+    "blob_count": 1
+  },
+  {
+    "url": "https://skills.sh/jeffallan/claude-skills/javascript-pro",
+    "repo": "jeffallan/claude-skills",
+    "repo_slug": "jeffallan-claude-skills",
+    "source_prefix": "",
+    "skill_name": "javascript-pro",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\javascript-pro",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/antfu/skills/vite",
+    "repo": "antfu/skills",
+    "repo_slug": "antfu-skills",
+    "source_prefix": "skills/vite/references",
+    "skill_name": "vite",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\vite",
+    "local_exists": true,
+    "blob_count": 6
+  },
+  {
+    "url": "https://skills.sh/mindrally/skills/postcss-best-practices",
+    "repo": "mindrally/skills",
+    "repo_slug": "mindrally-skills",
+    "source_prefix": "",
+    "skill_name": "postcss-best-practices",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\postcss-best-practices",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/planetscale/database-skills/mysql",
+    "repo": "planetscale/database-skills",
+    "repo_slug": "planetscale-database-skills",
+    "source_prefix": "",
+    "skill_name": "mysql",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\mysql",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/mindrally/skills/mysql-best-practices",
+    "repo": "mindrally/skills",
+    "repo_slug": "mindrally-skills",
+    "source_prefix": "",
+    "skill_name": "mysql-best-practices",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\mysql-best-practices",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/ingpoc/skills/scroll-storyteller",
+    "repo": "ingpoc/skills",
+    "repo_slug": "ingpoc-skills",
+    "source_prefix": "scroll-storyteller/./references",
+    "skill_name": "scroll-storyteller",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\scroll-storyteller",
+    "local_exists": true,
+    "blob_count": 2
+  },
+  {
+    "url": "https://skills.sh/daffy0208/ai-dev-standards/brand-designer",
+    "repo": "daffy0208/ai-dev-standards",
+    "repo_slug": "daffy0208-ai-dev-standards",
+    "source_prefix": "",
+    "skill_name": "brand-designer",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\brand-designer",
+    "local_exists": true,
+    "blob_count": 0
+  }
+]

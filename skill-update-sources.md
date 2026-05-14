@@ -163,6 +163,23 @@ Este arquivo funciona como nosso mapa de origem para encontrar atualiza??es, rep
 - [specification](https://agentskills.io/specification)
 - [mcp](https://mcp.brevo.com/v1/brevo/mcp)
 
+## Onde procurar novas versoes
+
+- [home do skills.sh](https://skills.sh/) para ver o leaderboard atual, os skills em alta e os repos mais ativos.
+- [docs do skills.sh](https://skills.sh/docs) para o fluxo oficial de descoberta, instalacao e criterio de ranking.
+- [audits do skills.sh](https://skills.sh/audits) para revisar risco antes de instalar ou atualizar um skill.
+- [official skills](https://skills.sh/official) para focar nos repos mantidos por fornecedores e times oficiais.
+- Pagina individual do skill em `skills.sh/owner/repo/skill` para confirmar a origem canonica e o volume de instalacoes.
+- Repo GitHub de origem do skill para verificar `SKILL.md`, `README.md`, changelog, tags e commits recentes.
+
+## Fluxo de atualizacao recomendado
+
+1. Comecar pela pagina do skill no `skills.sh`.
+2. Abrir o repo GitHub apontado por essa pagina.
+3. Comparar `SKILL.md`, referencias e assets com a copia local do Codex.
+4. Se o skill vier de um repo agregador, conferir o caminho exato dentro da arvore desse repo.
+5. Atualizar o espelho local e registrar o delta neste repo da Galaxie.
+
 ## Observa??es
 
 - Links de contexto da thread, como `galaxie.works`, ficaram fora do invent?rio de updates para n?o poluir o arquivo.

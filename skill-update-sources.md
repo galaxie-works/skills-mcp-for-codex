@@ -61,6 +61,7 @@ Este arquivo funciona como nosso mapa de origem para encontrar atualiza??es, rep
 - [expo tailwind setup](https://skills.sh/expo/skills/expo-tailwind-setup)
 - [tailwind design system](https://skills.sh/wshobson/agents/tailwind-design-system)
 - [tailwind v4 shadcn](https://skills.sh/jezweb/claude-skills/tailwind-v4-shadcn)
+- [shadcn](https://www.skills.sh/shadcn/ui/shadcn)
 - [tailwindcss advanced layouts](https://skills.sh/josiahsiegel/claude-plugin-marketplace/tailwindcss-advanced-layouts)
 - [tailwind css patterns](https://skills.sh/giuseppe-trisciuoglio/developer-kit/tailwind-css-patterns)
 - [self improving agent](https://skills.sh/charon-fan/agent-playbook/self-improving-agent)

@@ -9,16 +9,17 @@ This repository now mirrors the local Codex installation instead of a smaller cu
 Source folders:
 
 - `C:\Users\consa\.codex\skills`
+- `C:\Users\consa\.agents\skills`
 - `C:\Users\consa\.codex\superpowers\skills`
 
 ## Current Inventory
 
-- `1123` top-level installed skills
-- `5` installed system skills inside `skills/.system`
-- `1128` installed skill definitions total
+- `1126` top-level local skills across `.codex` and `.agents`
+- `5` local system skills inside `.codex\skills\.system`
+- `1129` mirrored skill definitions documented in this repo
 - `14` installed superpowers
-- `5` configured MCP servers
-- `1147` documented capabilities total
+- `9` configured MCP servers
+- `1152` documented capabilities total
 
 ## Repo Layout
 
@@ -49,6 +50,7 @@ This repo is now intentionally broader than the earlier curated subset. That mea
 When the local skill installation changes, refresh this repository from:
 
 - `C:\Users\consa\.codex\skills`
+- `C:\Users\consa\.agents\skills`
 - `C:\Users\consa\.codex\superpowers\skills`
 
 Then regenerate the inventory docs so the documentation stays faithful to the machine state.

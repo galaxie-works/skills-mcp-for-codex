@@ -151,6 +151,7 @@ Este arquivo funciona como nosso mapa de origem para encontrar atualiza??es, rep
 ## GitHub
 
 - [atlassian mcp server](https://github.com/atlassian/atlassian-mcp-server)
+- [claude code skills](https://github.com/levnikolaevich/claude-code-skills)
 
 ## Refer?ncias t?cnicas e MCPs
 

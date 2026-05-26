@@ -1,8 +1,8 @@
 # Installed Skills Index
 
-Faithful inventory generated from `C:\Users\consa\.codex\skills`.
+Faithful inventory generated from `C:\Users\consa\.codex\skills` and `C:\Users\consa\.agents\skills`.
 
-Count: 1123 top-level skills plus 5 skills inside .system.
+Count: 1129 mirrored skill definitions.
 
 | Skill | Path | Why We Have It | Description |
 | --- | --- | --- | --- |
@@ -934,6 +934,7 @@ Count: 1123 top-level skills plus 5 skills inside .system.
 | `launch-strategy` | `skills/launch-strategy` | Website, SEO, content, and go-to-market execution | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas. |
 | `lead-magnets` | `skills/lead-magnets` | Website, SEO, content, and go-to-market execution | When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions "lead magnet," "gated content," "content upgrade," "downloadable," "ebook," "cheat sheet," "checklist," "template download," "opt-in," "freebie," "PDF download," "resource library," "content offer," "email capture content," "Notion template," "spreadsheet template," or "what should I give away for emails." Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tool-strategy. For writing the actual content, see copywriting. For the email sequence after capture, see email-sequence. |
 | `lead-research-assistant` | `skills/lead-research-assistant` | Website, SEO, content, and go-to-market execution | Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals. |
+| `ln-611-docs-structure-auditor` | `skills/ln-611-docs-structure-auditor` | Engineering quality, safety, and delivery | Checks hierarchy, links, SSOT, compression, requirements compliance, freshness, legacy cleanup. Use when auditing documentation structure. |
 | `linear` | `skills/linear` | Website, SEO, content, and go-to-market execution | Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear. |
 | `linter-fix-guide` | `skills/linter-fix-guide` | Design, artifacts, and content production | Explain lint errors and propose fixes. Use when a junior developer needs help resolving common lint or format warnings. |
 | `log-summarizer` | `skills/log-summarizer` | Specialized capability documented for future use | Summarize noisy logs into likely causes and next steps. Use when a junior developer needs help interpreting logs. |

@@ -1,58 +1,41 @@
-# codex-skills-for-galaxie
+﻿# skills-mcp-for-codex
 
-Faithful Git mirror of the skills currently installed on this machine.
+Faithful Git mirror of every Codex skill and MCP snapshot consolidated on this machine.
 
 ## Source Of Truth
 
-This repository now mirrors the local Codex installation instead of a smaller curated subset.
-
-Source folders:
+This repository mirrors the canonical global Codex skill folder. Any skill discovered in workspace `.agents\skills`, `.claude\skills`, exports, or older mirrors should be consolidated here first:
 
 - `C:\Users\consa\.codex\skills`
-- `C:\Users\consa\.agents\skills`
 - `C:\Users\consa\.codex\superpowers\skills`
 
 ## Current Inventory
 
-- `1126` top-level local skills across `.codex` and `.agents`
-- `5` local system skills inside `.codex\skills\.system`
-- `1129` mirrored skill definitions documented in this repo
+- `1207` top-level skills in `skills/`
+- `5` system skills inside `skills/.system`
+- `1210` documented skill definitions total
 - `14` installed superpowers
-- `9` configured MCP servers
-- `1152` documented capabilities total
+- `1` MCP snapshot files
+- `1225` documented capabilities total
 
 ## Repo Layout
 
-- [skills](G:\OneDrive - Galaxie Works Ltd\Galaxie Works Ltd\About Galaxie\Development\codex-skills-for-galaxie\skills): mirrored skill folders from the local Codex install, including `.system`
-- [superpowers-skills](G:\OneDrive - Galaxie Works Ltd\Galaxie Works Ltd\About Galaxie\Development\codex-skills-for-galaxie\superpowers-skills): mirrored superpower folders from the local Codex install
-- [mcp](G:\OneDrive - Galaxie Works Ltd\Galaxie Works Ltd\About Galaxie\Development\codex-skills-for-galaxie\mcp): snapshot of configured MCP servers from the local Codex config
-- [docs/installed-skills.md](G:\OneDrive - Galaxie Works Ltd\Galaxie Works Ltd\About Galaxie\Development\codex-skills-for-galaxie\docs\installed-skills.md): full index of installed skills with path, description, and why each capability matters
-- [docs/installed-superpowers.md](G:\OneDrive - Galaxie Works Ltd\Galaxie Works Ltd\About Galaxie\Development\codex-skills-for-galaxie\docs\installed-superpowers.md): full index of installed superpowers with path, description, and why they matter
-- [docs/installed-mcps.md](G:\OneDrive - Galaxie Works Ltd\Galaxie Works Ltd\About Galaxie\Development\codex-skills-for-galaxie\docs\installed-mcps.md): inventory of configured MCP servers, transports, endpoints, and safe notes
+- [skills](./skills): mirrored skill folders from the local Codex global install, including `.system`
+- [superpowers-skills](./superpowers-skills): mirrored superpower folders from the local Codex install
+- [mcp](./mcp): snapshot of configured MCP servers from the local Codex config
+- [docs/installed-skills.md](./docs/installed-skills.md): full index of installed skills with path, description, and why each capability matters
+- [docs/installed-superpowers.md](./docs/installed-superpowers.md): full index of installed superpowers with path and description
+- [docs/installed-mcps.md](./docs/installed-mcps.md): inventory of configured MCP servers, transports, endpoints, and safe notes
+- [skill-update-sources.md](./skill-update-sources.md): where to check for future skill updates
 
-## Why This Exists
+## Operating Rule
 
-The goal is continuity.
-
-You mentioned needing the full skill picture documented so you can keep moving without depending on partial thread context. This repo now serves that purpose:
-
-- exact snapshot of what is installed locally
-- searchable Git history for skills and superpowers
-- documentation of what each installed capability does
-- easier handoff into future planning and automation work
-
-## Important Note
-
-This repo is now intentionally broader than the earlier curated subset. That means skills related to WordPress, Elementor, content writing, SEO, product operations, design, debugging, and many other areas are included whenever they are present in the local Codex installation.
+`C:\Users\consa\.codex\skills` is the canonical skill library. Do not leave usable skills only in workspace `.agents\skills`, `.claude\skills`, or temporary exports. Consolidate them into the global folder, then refresh this mirror and regenerate the docs.
 
 ## Updating The Mirror
 
-When the local skill installation changes, refresh this repository from:
-
-- `C:\Users\consa\.codex\skills`
-- `C:\Users\consa\.agents\skills`
-- `C:\Users\consa\.codex\superpowers\skills`
-
-Then regenerate the inventory docs so the documentation stays faithful to the machine state.
-
-For the canonical source map of where to check updates, open [skill-update-sources.md](./skill-update-sources.md).
+1. Consolidate all local skill roots into `C:\Users\consa\.codex\skills`.
+2. Remove generated cache files such as `__pycache__` and `.pyc`.
+3. Mirror the global skills folder into `skills/`.
+4. Regenerate `docs/installed-skills.md` so descriptions stay current.
+5. Commit and push to `galaxie-works/skills-mcp-for-codex`.

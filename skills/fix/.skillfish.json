@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "fix",
+  "owner": "facebook",
+  "repo": "react",
+  "path": ".claude/skills/fix",
+  "branch": "main",
+  "sha": "2a6fbdf85deb08f872b40b48a51cac7863afd582",
+  "source": "manual"
+}

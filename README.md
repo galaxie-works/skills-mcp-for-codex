@@ -4,6 +4,7 @@
 ![Fonte](https://img.shields.io/badge/fonte-Codex_Global-0ea5e9?style=for-the-badge)
 ![Skills](https://img.shields.io/badge/skills-1207-f97316?style=for-the-badge)
 ![MCP](https://img.shields.io/badge/MCPs-documentados-8b5cf6?style=for-the-badge)
+![Manifest](https://img.shields.io/badge/installer_manifest-ready-22c55e?style=for-the-badge)
 ![Idioma](https://img.shields.io/badge/docs-pt--BR-14b8a6?style=for-the-badge)
 
 > Repositório-memória da nossa máquina Codex: aqui ficam os skills, superpowers, MCPs e inventários que fazem o Codex trabalhar como um copiloto de verdade para Galaxie Works.
@@ -17,6 +18,17 @@ Ele existe para evitar aquele caos clássico de skill espalhado por `.agents`, `
 > **Todo skill útil precisa existir em `C:\Users\consa\.codex\skills`.**
 
 Depois disso, este repo é atualizado para registrar o estado atual, com histórico no GitHub e documentação legível.
+
+## Pronto Para O Skills Installer
+
+Este repositório agora também funciona como **fonte de dados para um app instalador de skills** feito em Tauri + React/TypeScript.
+
+| Artefato | Status | Uso no app |
+| --- | --- | --- |
+| [`manifest.json`](./manifest.json) | ![Ready](https://img.shields.io/badge/ready-22c55e) | Manifesto principal com categorias, skills, descrições pt-BR, tags, caminhos e alvos de instalação. |
+| [`manifest.schema.json`](./manifest.schema.json) | ![Schema](https://img.shields.io/badge/schema-validavel-0ea5e9) | Contrato para validar o manifesto antes do app consumir. |
+| [`docs/skill-categories.md`](./docs/skill-categories.md) | ![Categorias](https://img.shields.io/badge/categorias-12-f97316) | Visão humana, visual e navegável das categorias. |
+| [`docs/installer-manifest-guide.md`](./docs/installer-manifest-guide.md) | ![Guide](https://img.shields.io/badge/guia-app-8b5cf6) | Guia de implementação do instalador, estados e fluxo seguro. |
 
 ## Painel Atual
 
@@ -60,7 +72,11 @@ Nao deixar skills definitivos apenas nestes lugares:
 | [`skills/.system`](./skills/.system) | Runtime | Skills internos usados pelo próprio Codex. |
 | [`superpowers-skills/`](./superpowers-skills) | Superpowers | Capacidades auxiliares instaladas localmente. |
 | [`mcp/`](./mcp) | MCP | Snapshot dos servidores MCP configurados. |
+| [`manifest.json`](./manifest.json) | App installer | Manifesto consumível pelo instalador de skills. |
+| [`manifest.schema.json`](./manifest.schema.json) | Validação | Schema JSON do manifesto. |
 | [`docs/installed-skills.md`](./docs/installed-skills.md) | Inventário | Lista completa dos skills, descrições e motivo de uso. |
+| [`docs/skill-categories.md`](./docs/skill-categories.md) | Categorias | Organização visual dos skills para leitura humana e UI. |
+| [`docs/installer-manifest-guide.md`](./docs/installer-manifest-guide.md) | Guia | Como o app deve consumir e instalar os skills com segurança. |
 | [`docs/installed-superpowers.md`](./docs/installed-superpowers.md) | Inventário | Lista dos superpowers disponíveis. |
 | [`docs/installed-mcps.md`](./docs/installed-mcps.md) | Inventário | MCPs configurados, transporte e notas seguras. |
 | [`skill-update-sources.md`](./skill-update-sources.md) | Atualizações | Onde procurar novas versões dos skills. |
@@ -119,6 +135,16 @@ git commit -m "Refresh canonical Codex skills mirror"
 git push origin main
 ```
 
+### 4. Regenerar o manifesto do app
+
+Depois de qualquer mudança no inventário:
+
+```powershell
+.\tools\generate-installer-manifest.ps1
+```
+
+Isso atualiza `manifest.json`, `manifest.schema.json`, `docs/skill-categories.md` e `docs/installer-manifest-guide.md`.
+
 ## Checklist De Qualidade
 
 Antes de fechar qualquer atualização, validar:
@@ -131,6 +157,8 @@ Antes de fechar qualquer atualização, validar:
 | `.pyc` | Zero |
 | `skill\skill` | Zero pasta aninhada acidental |
 | `docs/installed-skills.md` | Regenerado com descrição |
+| `manifest.json` | Regenerado e válido como JSON |
+| `docs/skill-categories.md` | Regenerado com categorias e descrições pt-BR |
 | `git status --short` | Limpo depois do push |
 
 ## Para Que Isso Agrega
@@ -146,6 +174,9 @@ Antes de fechar qualquer atualização, validar:
 ## Links Rapidos
 
 - [Inventario completo de skills](./docs/installed-skills.md)
+- [Manifesto do instalador](./manifest.json)
+- [Categorias dos skills](./docs/skill-categories.md)
+- [Guia do app instalador](./docs/installer-manifest-guide.md)
 - [Inventario de superpowers](./docs/installed-superpowers.md)
 - [Inventario de MCPs](./docs/installed-mcps.md)
 - [Fontes para atualizacoes](./skill-update-sources.md)

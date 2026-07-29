@@ -1,14 +1,14 @@
-﻿# Guia do Manifesto para o Skills Installer
+# Guia do Manifesto para o Skills Installer
 
 ![Stack](https://img.shields.io/badge/stack-Tauri_%2B_React_%2B_TS-0ea5e9?style=for-the-badge)
-![SeguranÃ§a](https://img.shields.io/badge/install-safe_actions-22c55e?style=for-the-badge)
+![Segurança](https://img.shields.io/badge/install-safe_actions-22c55e?style=for-the-badge)
 ![Cross Platform](https://img.shields.io/badge/OS-Windows_macOS_Linux-f97316?style=for-the-badge)
 
-Este guia descreve como o app instalador deve consumir o `manifest.json` deste repositÃ³rio.
+Este guia descreve como o app instalador deve consumir o `manifest.json` deste repositório.
 
 ## Objetivo
 
-Permitir que uma pessoa escolha categorias ou skills individuais e instale tudo com seguranÃ§a em:
+Permitir que uma pessoa escolha categorias ou skills individuais e instale tudo com segurança em:
 
 | Target | Pasta |
 | --- | --- |
@@ -19,21 +19,21 @@ Permitir que uma pessoa escolha categorias ou skills individuais e instale tudo 
 
 ~~~text
 GitHub repo
-  â†“
+  ↓
 manifest.json
-  â†“
+  ↓
 Skills Installer
-  â†“
-seleÃ§Ã£o por categoria/skill
-  â†“
-download da versÃ£o escolhida
-  â†“
-validaÃ§Ã£o de SKILL.md
-  â†“
-backup local se jÃ¡ existir
-  â†“
-cÃ³pia segura para o destino
-  â†“
+  ↓
+seleção por categoria/skill
+  ↓
+download da versão escolhida
+  ↓
+validação de SKILL.md
+  ↓
+backup local se já existir
+  ↓
+cópia segura para o destino
+  ↓
 resultado por item
 ~~~
 
@@ -45,45 +45,45 @@ resultado por item
 | `categories[].name` | Nome visual da categoria. |
 | `categories[].color` | Cor de badge/card. |
 | `categories[].skills[]` | Lista renderizada no centro da tela. |
-| `skills[].id` | ID estÃ¡vel do skill dentro do repo. |
-| `skills[].name` | Nome amigÃ¡vel para UI. |
-| `skills[].descriptionPtBr` | DescriÃ§Ã£o principal em portuguÃªs. |
-| `skills[].descriptionOriginal` | DescriÃ§Ã£o original do SKILL.md, Ãºtil para busca avanÃ§ada. |
+| `skills[].id` | ID estável do skill dentro do repo. |
+| `skills[].name` | Nome amigável para UI. |
+| `skills[].descriptionPtBr` | Descrição principal em português. |
+| `skills[].descriptionOriginal` | Descrição original do SKILL.md, útil para busca avançada. |
 | `skills[].path` | Caminho dentro do repo para copiar. |
 | `skills[].installable` | Se pode ser instalado pelo app. |
-| `skills[].system` | Se Ã© skill de runtime/sistema. |
+| `skills[].system` | Se é skill de runtime/sistema. |
 | `skills[].sourceUrl` | Link de origem quando conhecido. |
 
-## Estados de instalaÃ§Ã£o
+## Estados de instalação
 
 | Estado | Como calcular |
 | --- | --- |
-| `Not installed` | Pasta de destino nÃ£o existe. |
-| `Installed` | Pasta existe e contÃ©m `SKILL.md`. |
-| `Update available` | Pasta existe, mas hash/versÃ£o local difere do item baixado. |
+| `Not installed` | Pasta de destino não existe. |
+| `Installed` | Pasta existe e contém `SKILL.md`. |
+| `Update available` | Pasta existe, mas hash/versão local difere do item baixado. |
 | `Invalid local install` | Pasta existe, mas falta `SKILL.md`. |
 | `Not installable` | `installable = false`, normalmente skill de sistema/runtime. |
 
-## InstalaÃ§Ã£o segura
+## Instalação segura
 
-O app nÃ£o deve executar comandos arbitrÃ¡rios. A instalaÃ§Ã£o pode ser feita com operaÃ§Ãµes de arquivo:
+O app não deve executar comandos arbitrários. A instalação pode ser feita com operações de arquivo:
 
-1. baixar o zip/tarball do GitHub na versÃ£o selecionada;
+1. baixar o zip/tarball do GitHub na versão selecionada;
 2. localizar cada `skills[].path`;
 3. validar `SKILL.md`;
-4. criar backup com timestamp se o destino jÃ¡ existir;
+4. criar backup com timestamp se o destino já existir;
 5. copiar arquivos para `~/.codex/skills/<id>` ou `~/.agents/skills/<id>`;
 6. registrar logs simples por item.
 
 ## UI sugerida
 
 - Sidebar com categorias, contagem e checkbox "selecionar tudo".
-- Ãrea central com cards de skills.
-- Busca por nome, descriÃ§Ã£o e tags.
-- Filtros por status: instalado, atualizaÃ§Ã£o disponÃ­vel, nÃ£o instalado.
-- Drawer/modal de detalhes com descriÃ§Ã£o em pt-BR, descriÃ§Ã£o original, origem e caminho.
+- Área central com cards de skills.
+- Busca por nome, descrição e tags.
+- Filtros por status: instalado, atualização disponível, não instalado.
+- Drawer/modal de detalhes com descrição em pt-BR, descrição original, origem e caminho.
 - Tela de progresso com log por skill.
-- BotÃ£o "Abrir pasta instalada".
+- Botão "Abrir pasta instalada".
 
 ## Regenerar manifesto
 

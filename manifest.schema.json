@@ -1,78 +1,78 @@
-﻿{
-    "$schema":  "https://json-schema.org/draft/2020-12/schema",
-    "$id":  "https://github.com/galaxie-works/skills-mcp-for-codex/blob/main/manifest.schema.json",
-    "title":  "Galaxie Codex Skills Installer Manifest",
-    "type":  "object",
-    "required":  [
-                     "schemaVersion",
-                     "generatedAt",
-                     "language",
-                     "repository",
-                     "installer",
-                     "installRoots",
-                     "counts",
-                     "categories"
-                 ],
-    "properties":  {
-                       "schemaVersion":  {
-                                             "type":  "string"
-                                         },
-                       "generatedAt":  {
-                                           "type":  "string"
-                                       },
-                       "language":  {
-                                        "const":  "pt-BR",
-                                        "type":  "string"
-                                    },
-                       "repository":  {
-                                          "type":  "object",
-                                          "required":  [
-                                                           "name",
-                                                           "owner",
-                                                           "url",
-                                                           "branch"
-                                                       ]
-                                      },
-                       "installer":  {
-                                         "type":  "object",
-                                         "required":  [
-                                                          "recommendedStack",
-                                                          "defaultTarget",
-                                                          "supportedTargets",
-                                                          "safeInstallFlow"
-                                                      ]
-                                     },
-                       "installRoots":  {
-                                            "type":  "object",
-                                            "required":  [
-                                                             "codex",
-                                                             "agents"
-                                                         ]
-                                        },
-                       "counts":  {
-                                      "type":  "object",
-                                      "required":  [
-                                                       "categories",
-                                                       "skills",
-                                                       "installableSkills",
-                                                       "systemSkills"
-                                                   ]
-                                  },
-                       "categories":  {
-                                          "items":  {
-                                                        "type":  "object",
-                                                        "required":  [
-                                                                         "id",
-                                                                         "name",
-                                                                         "descriptionPtBr",
-                                                                         "color",
-                                                                         "tags",
-                                                                         "count",
-                                                                         "installableCount",
-                                                                         "skills"
-                                                                     ]
-                                                    },
-                                          "type":  "array"
-                                      }
-                   }
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/galaxie-works/skills-mcp-for-codex/blob/main/manifest.schema.json",
+  "title": "Galaxie Codex Skills Installer Manifest",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "generatedAt",
+    "language",
+    "repository",
+    "installer",
+    "installRoots",
+    "counts",
+    "categories"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "const": "pt-BR"
+    },
+    "repository": {
+      "type": "object",
+      "required": [
+        "name",
+        "owner",
+        "url",
+        "branch"
+      ]
+    },
+    "installer": {
+      "type": "object",
+      "required": [
+        "recommendedStack",
+        "defaultTarget",
+        "supportedTargets",
+        "safeInstallFlow"
+      ]
+    },
+    "installRoots": {
+      "type": "object",
+      "required": [
+        "codex",
+        "agents"
+      ]
+    },
+    "counts": {
+      "type": "object",
+      "required": [
+        "categories",
+        "skills",
+        "installableSkills",
+        "systemSkills"
+      ]
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "descriptionPtBr",
+          "color",
+          "tags",
+          "count",
+          "installableCount",
+          "skills"
+        ]
+      }
+    }
+  }
 }

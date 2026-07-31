@@ -7,7 +7,7 @@ Generated: `
 `
 
 Count: `
-1208
+1209
 ` top-level skills plus `
 5
 ` skills inside `.system`.
@@ -1073,6 +1073,7 @@ Count: `
 | `refactor` | `skills/refactor` | Design, artifacts, and visual production | Surgical code refactoring to improve maintainability without changing behavior. Covers extracting functions, renaming variables, breaking down god functions, improving type safety, eliminating code smells, and applying design patterns. Less drastic than repo-rebuilder; use for gradual improvements. |
 | `refactor-roadmap` | `skills/refactor-roadmap` | Founder, product, and operations leverage | Create a staged refactor plan for a module. Use when a mid-level developer needs a safe refactor path. |
 | `referral-program` | `skills/referral-program` | Engineering quality, safety, and delivery | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch-strategy. |
+| `research` | `skills/research` | Engineering quality, safety, and delivery | Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent. |
 | `release` | `skills/release` | Engineering quality, safety, and delivery | Release vercel-plugin — run gates, bump version, generate artifacts, commit, and push. Use when asked to "release", "ship", "bump and push", or "cut a release". |
 | `release-notes-drafter` | `skills/release-notes-drafter` | Specialized capability documented for future use | Draft release notes from changes and PRs. Use when a mid-level developer needs a structured changelog. |
 | `release-skills` | `skills/release-skills` | Founder, product, and operations leverage | Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, Rust, Claude Plugin, and generic projects. Use when user says "release", "发布", "new version", "bump version", "push", "推送". |

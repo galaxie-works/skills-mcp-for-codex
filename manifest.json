@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-31T10:53:56-03:00",
+  "generatedAt": "2026-07-31T10:56:30-03:00",
   "language": "pt-BR",
   "repository": {
     "name": "skills-mcp-for-codex",
@@ -31,8 +31,8 @@
   },
   "counts": {
     "categories": 12,
-    "skills": 1211,
-    "installableSkills": 1206,
+    "skills": 1212,
+    "installableSkills": 1207,
     "systemSkills": 5
   },
   "categories": [
@@ -6070,8 +6070,8 @@
         "browser",
         "workflow"
       ],
-      "count": 50,
-      "installableCount": 50,
+      "count": 51,
+      "installableCount": 51,
       "skills": [
         {
           "id": "davila7-claude-code-templates_149a7f65__ai-maestro__agent-management",
@@ -6973,6 +6973,31 @@
           "installable": true,
           "system": false,
           "sourceUrl": null
+        },
+        {
+          "id": "research",
+          "slug": "research",
+          "name": "Research",
+          "originalName": "research",
+          "categoryId": "automation-agents",
+          "descriptionPtBr": "Ajuda a automatizar tarefas, coordenar agentes, operar browser/MCP ou criar fluxos assistidos. Útil quando Research precisa reduzir trabalho manual ou conectar ferramentas. Tags: automation, backend, ai.",
+          "descriptionOriginal": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+          "whyWeHaveIt": "Engineering quality, safety, and delivery",
+          "tags": [
+            "automation",
+            "backend",
+            "ai"
+          ],
+          "path": "skills/research",
+          "target": "codex",
+          "defaultInstallRoot": "~/.codex/skills",
+          "alternateInstallRoots": [
+            "~/.agents/skills"
+          ],
+          "hasSkillFile": true,
+          "installable": true,
+          "system": false,
+          "sourceUrl": "https://skills.sh/mattpocock/skills/research"
         },
         {
           "id": "davila7-claude-code-templates_149a7f65__web-data__scrape",

@@ -78,6 +78,7 @@ Este arquivo funciona como nosso mapa de origem para encontrar atualiza??es, rep
 - [ui ux pro max](https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max)
 - [impeccable](https://skills.sh/pbakaus/impeccable)
 - [impeccable critique](https://www.skills.sh/pbakaus/impeccable/critique)
+- [research](https://skills.sh/mattpocock/skills/research)
 - [videoagent audio studio](https://skills.sh/pexoai/pexo-skills/videoagent-audio-studio)
 - [apify trend analysis](https://skills.sh/apify/agent-skills/apify-trend-analysis)
 - [social trend monitor](https://skills.sh/yangliu2060/smith--skills/social-trend-monitor)

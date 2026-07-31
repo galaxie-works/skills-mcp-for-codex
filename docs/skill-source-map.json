@@ -838,5 +838,15 @@
     "local_target": "C:\\Users\\consa\\.codex\\skills\\improve-codebase-architecture",
     "local_exists": true,
     "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/mattpocock/skills/research",
+    "repo": "mattpocock/skills",
+    "repo_slug": "mattpocock-skills",
+    "source_prefix": "",
+    "skill_name": "research",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\research",
+    "local_exists": true,
+    "blob_count": 0
   }
 ]

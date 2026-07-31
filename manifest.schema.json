@@ -21,8 +21,8 @@
       "type": "string"
     },
     "language": {
-      "type": "string",
-      "const": "pt-BR"
+      "const": "pt-BR",
+      "type": "string"
     },
     "repository": {
       "required": [

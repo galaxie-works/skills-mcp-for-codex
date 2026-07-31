@@ -11,8 +11,8 @@
 | Métrica | Valor |
 | --- | ---: |
 | Categorias | 12 |
-| Skills no manifesto | 1212 |
-| Skills instaláveis | 1207 |
+| Skills no manifesto | 1213 |
+| Skills instaláveis | 1208 |
 | Skills de sistema/runtime | 5 |
 
 ## Categorias
@@ -24,7 +24,7 @@
 | <span style="color:#f97316">&#9679;</span> **Marketing, Growth e SEO** | `marketing-growth` | 78 | 78 | Skills para SEO, conteúdo, anúncios, analytics, social media, funis, posicionamento e crescimento comercial. |
 | <span style="color:#14b8a6">&#9679;</span> **Produto, Operação e PO** | `product-ops` | 43 | 43 | Skills para priorização, backlog, PRD, discovery, gestão de produto, rotinas executivas e automação do dia a dia. |
 | <span style="color:#8b5cf6">&#9679;</span> **Automação, Agentes e MCP** | `automation-agents` | 51 | 51 | Skills para browser automation, agentes, MCPs, workflows, integrações e execução assistida por ferramentas. |
-| <span style="color:#0ea5e9">&#9679;</span> **Backend, APIs e Arquitetura** | `backend-architecture` | 56 | 56 | Skills para APIs, Laravel, bancos, autenticação, arquitetura, padrões backend e integrações complexas. |
+| <span style="color:#0ea5e9">&#9679;</span> **Backend, APIs e Arquitetura** | `backend-architecture` | 57 | 57 | Skills para APIs, Laravel, bancos, autenticação, arquitetura, padrões backend e integrações complexas. |
 | <span style="color:#22c55e">&#9679;</span> **DevOps, Cloud e Deploy** | `devops-cloud` | 54 | 54 | Skills para Vercel, Azure, CI/CD, GitHub Actions, deploy, infraestrutura, ambientes e observabilidade. |
 | <span style="color:#ef4444">&#9679;</span> **Qualidade, Testes e Segurança** | `quality-security` | 235 | 235 | Skills para QA, auditoria, acessibilidade, testes, lint, revisão, segurança e hardening. |
 | <span style="color:#f59e0b">&#9679;</span> **Conteúdo, Áudio, Vídeo e Mídia** | `content-media` | 93 | 93 | Skills para escrita, documentação, storytelling, áudio, vídeo, imagens, apresentações e conteúdo multimídia. |

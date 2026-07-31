@@ -7,7 +7,7 @@ Generated: `
 `
 
 Count: `
-1209
+1210
 ` top-level skills plus `
 5
 ` skills inside `.system`.
@@ -497,6 +497,7 @@ Count: `
 | `skill-creator` | `skills/davila7-claude-code-templates_149a7f65__development__skill-development` | Engineering quality, safety, and delivery | Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy. |
 | `skill-installer` | `skills/davila7-claude-code-templates_149a7f65__development__skill-installer` | Engineering quality, safety, and delivery | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos). |
 | `software-architecture` | `skills/davila7-claude-code-templates_149a7f65__development__software-architecture` | Design, artifacts, and visual production | Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development. |
+| `software-architecture-design` | `skills/software-architecture-design` | Engineering quality, safety, and delivery | Designs system structure across monolith/microservices/serverless. Use when structuring systems, scaling, decomposing monoliths, or choosing patterns. |
 | `stripe-integration` | `skills/davila7-claude-code-templates_149a7f65__development__stripe-integration` | Design, artifacts, and visual production | Get paid from day one. Payments, subscriptions, billing portal, webhooks, metered billing, Stripe Connect. The complete guide to implementing Stripe correctly, including all the edge cases that will bite you at 3am. This isn't just API calls - it's the full payment system: handling failures, managing subscriptions, dealing with dunning, and keeping revenue flowing. Use when: stripe, payments, subscription, billing, checkout. |
 | `subagent-driven-development` | `skills/davila7-claude-code-templates_149a7f65__development__subagent-driven-development` | Specialized capability documented for future use | Use when executing implementation plans with independent tasks in the current session |
 | `systematic-debugging` | `skills/davila7-claude-code-templates_149a7f65__development__systematic-debugging` | Engineering quality, safety, and delivery | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |

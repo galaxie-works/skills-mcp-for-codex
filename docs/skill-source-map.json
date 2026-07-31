@@ -848,5 +848,15 @@
     "local_target": "C:\\Users\\consa\\.codex\\skills\\research",
     "local_exists": true,
     "blob_count": 0
+  },
+  {
+    "url": "https://github.com/vasilyu1983/ai-agents-public",
+    "repo": "vasilyu1983/ai-agents-public",
+    "repo_slug": "vasilyu1983-ai-agents-public",
+    "source_prefix": "",
+    "skill_name": "software-architecture-design",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\software-architecture-design",
+    "local_exists": true,
+    "blob_count": 0
   }
 ]

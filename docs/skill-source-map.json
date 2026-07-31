@@ -828,5 +828,15 @@
     "local_target": "C:\\Users\\consa\\.codex\\skills\\brand-designer",
     "local_exists": true,
     "blob_count": 0
+  },
+  {
+    "url": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
+    "repo": "mattpocock/skills",
+    "repo_slug": "mattpocock-skills",
+    "source_prefix": "",
+    "skill_name": "improve-codebase-architecture",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\improve-codebase-architecture",
+    "local_exists": true,
+    "blob_count": 0
   }
 ]

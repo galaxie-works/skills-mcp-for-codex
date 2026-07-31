@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-29T10:50:01-03:00",
+  "generatedAt": "2026-07-31T10:53:56-03:00",
   "language": "pt-BR",
   "repository": {
     "name": "skills-mcp-for-codex",
@@ -31,8 +31,8 @@
   },
   "counts": {
     "categories": 12,
-    "skills": 1210,
-    "installableSkills": 1205,
+    "skills": 1211,
+    "installableSkills": 1206,
     "systemSkills": 5
   },
   "categories": [
@@ -170,12 +170,13 @@
           "name": "ai Product",
           "originalName": "ai-product",
           "categoryId": "frontend-ui",
-          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve ai Product, UI, design system ou padrões frontend. Tags: seo, product, content, ai.",
+          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve ai Product, UI, design system ou padrões frontend. Tags: seo, product, backend, content.",
           "descriptionOriginal": "Every product will be AI-powered. The question is whether you'll build it right or ship a demo that falls apart in production. This skill covers LLM integration patterns, RAG architecture, prompt engineering that scales, AI UX that users trust, and cost optimization that doesn't bankrupt you. Use when: keywords, file_patterns, code_patterns.",
           "whyWeHaveIt": "Website, SEO, content, and go-to-market execution",
           "tags": [
             "seo",
             "product",
+            "backend",
             "content",
             "ai"
           ],
@@ -427,10 +428,11 @@
           "name": "c4 Architecture",
           "originalName": "c4-architecture",
           "categoryId": "frontend-ui",
-          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve c4 Architecture, UI, design system ou padrões frontend. Tags: content, media, ai.",
+          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve c4 Architecture, UI, design system ou padrões frontend. Tags: backend, content, media, ai.",
           "descriptionOriginal": "Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, document system architecture, visualize software structure, create C4 diagrams, or generate context/container/component/deployment diagrams. Triggers include \"architecture diagram\", \"C4 diagram\", \"system context\", \"container diagram\", \"component diagram\", \"deployment diagram\", \"document architecture\", \"visualize architecture\".",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
+            "backend",
             "content",
             "media",
             "ai"
@@ -731,10 +733,11 @@
           "name": "Design System Starter",
           "originalName": "design-system-starter",
           "categoryId": "frontend-ui",
-          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Design System Starter, UI, design system ou padrões frontend. Tags: content, media.",
+          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Design System Starter, UI, design system ou padrões frontend. Tags: backend, content, media.",
           "descriptionOriginal": "Create and evolve design systems with design tokens, component architecture, accessibility guidelines, and documentation templates. Ensures consistent, scalable, and accessible UI across products.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
+            "backend",
             "content",
             "media"
           ],
@@ -921,10 +924,13 @@
           "name": "Excalidraw",
           "originalName": "excalidraw",
           "categoryId": "frontend-ui",
-          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Excalidraw, UI, design system ou padrões frontend. Tags: media.",
+          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Excalidraw, UI, design system ou padrões frontend. Tags: backend, media.",
           "descriptionOriginal": "Use when working with *.excalidraw or *.excalidraw.json files, user mentions diagrams/flowcharts, or requests architecture visualization - delegates all Excalidraw operations to subagents to prevent context exhaustion from verbose JSON (single files: 4k-22k tokens, can exceed read limits)",
           "whyWeHaveIt": "Design, artifacts, and visual production",
-          "tags": "media",
+          "tags": [
+            "backend",
+            "media"
+          ],
           "path": "skills/davila7-claude-code-templates_149a7f65__creative-design__excalidraw",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -1366,10 +1372,13 @@
           "name": "Multiplayer",
           "originalName": "multiplayer",
           "categoryId": "frontend-ui",
-          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Multiplayer, UI, design system ou padrões frontend. Tags: media.",
+          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Multiplayer, UI, design system ou padrões frontend. Tags: backend, media.",
           "descriptionOriginal": "Multiplayer game development principles. Architecture, networking, synchronization.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
-          "tags": "media",
+          "tags": [
+            "backend",
+            "media"
+          ],
           "path": "skills/davila7-claude-code-templates_149a7f65__creative-design__game-development__multiplayer",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -1822,11 +1831,12 @@
           "name": "Senior Architect",
           "originalName": "senior-architect",
           "categoryId": "frontend-ui",
-          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Senior Architect, UI, design system ou padrões frontend. Tags: react, media.",
+          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Senior Architect, UI, design system ou padrões frontend. Tags: react, backend, media.",
           "descriptionOriginal": "Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python. Includes architecture diagram generation, system design patterns, tech stack decision frameworks, and dependency analysis. Use when designing system architecture, making technical decisions, creating architecture diagrams, evaluating trade-offs, or defining integration patterns.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
             "react",
+            "backend",
             "media"
           ],
           "path": "skills/davila7-claude-code-templates_149a7f65__development__senior-architect",
@@ -2123,11 +2133,12 @@
           "name": "Tailwind Patterns",
           "originalName": "tailwind-patterns",
           "categoryId": "frontend-ui",
-          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Tailwind Patterns, UI, design system ou padrões frontend. Tags: tailwind, media.",
+          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Tailwind Patterns, UI, design system ou padrões frontend. Tags: tailwind, backend, media.",
           "descriptionOriginal": "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
             "tailwind",
+            "backend",
             "media"
           ],
           "path": "skills/davila7-claude-code-templates_149a7f65__creative-design__tailwind-patterns",
@@ -2147,11 +2158,12 @@
           "name": "Tailwind Patterns",
           "originalName": "tailwind-patterns",
           "categoryId": "frontend-ui",
-          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Tailwind Patterns, UI, design system ou padrões frontend. Tags: tailwind, media.",
+          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Tailwind Patterns, UI, design system ou padrões frontend. Tags: tailwind, backend, media.",
           "descriptionOriginal": "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
             "tailwind",
+            "backend",
             "media"
           ],
           "path": "skills/tailwind-patterns",
@@ -2744,12 +2756,13 @@
           "name": "Elementor Addon Architecture",
           "originalName": "elementor-addon-architecture",
           "categoryId": "wordpress-web",
-          "descriptionPtBr": "Ajuda a trabalhar com sites, WordPress, CMS, Elementor ou publicação web. Útil para estruturar páginas, revisar implementações e orientar manutenção relacionada a Elementor Addon Architecture. Tags: wordpress, seo, content, media.",
+          "descriptionPtBr": "Ajuda a trabalhar com sites, WordPress, CMS, Elementor ou publicação web. Útil para estruturar páginas, revisar implementações e orientar manutenção relacionada a Elementor Addon Architecture. Tags: wordpress, seo, backend, content.",
           "descriptionOriginal": "Design universal Elementor addon foundations in WordPress: bootstrap boundaries, compatibility gates, manager registration maps, and asset loading policy. Use for plugin architecture decisions before widget implementation.",
           "whyWeHaveIt": "Website, SEO, content, and go-to-market execution",
           "tags": [
             "wordpress",
             "seo",
+            "backend",
             "content",
             "media"
           ],
@@ -5831,12 +5844,13 @@
           "name": "Senior Prompt Engineer",
           "originalName": "senior-prompt-engineer",
           "categoryId": "product-ops",
-          "descriptionPtBr": "Ajuda em produto, operação, backlog, priorização, planejamento e rotinas de PO. Útil para transformar demandas relacionadas a Senior Prompt Engineer em decisões, planos e entregáveis mais claros. Tags: product, automation, media, ai.",
+          "descriptionPtBr": "Ajuda em produto, operação, backlog, priorização, planejamento e rotinas de PO. Útil para transformar demandas relacionadas a Senior Prompt Engineer em decisões, planos e entregáveis mais claros. Tags: product, automation, backend, media.",
           "descriptionOriginal": "World-class prompt engineering skill for LLM optimization, prompt patterns, structured outputs, and AI product development. Expertise in Claude, GPT-4, prompt design patterns, few-shot learning, chain-of-thought, and AI evaluation. Includes RAG optimization, agent design, and LLM system architecture. Use when building AI products, optimizing LLM performance, designing agentic systems, or implementing advanced prompting techniques.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
             "product",
             "automation",
+            "backend",
             "media",
             "ai"
           ],
@@ -5857,11 +5871,12 @@
           "name": "Session Handoff",
           "originalName": "session-handoff",
           "categoryId": "product-ops",
-          "descriptionPtBr": "Ajuda em produto, operação, backlog, priorização, planejamento e rotinas de PO. Útil para transformar demandas relacionadas a Session Handoff em decisões, planos e entregáveis mais claros. Tags: automation, media, ai.",
+          "descriptionPtBr": "Ajuda em produto, operação, backlog, priorização, planejamento e rotinas de PO. Útil para transformar demandas relacionadas a Session Handoff em decisões, planos e entregáveis mais claros. Tags: automation, backend, media, ai.",
           "descriptionOriginal": "Creates comprehensive handoff documents for seamless AI agent session transfers. Triggered when: (1) user requests handoff/memory/context save, (2) context window approaches capacity, (3) major task milestone completed, (4) work session ending, (5) user says 'save state', 'create handoff', 'I need to pause', 'context is getting full', (6) resuming work with 'load handoff', 'resume from', 'continue where we left off'. Proactively suggests handoffs after substantial work (multiple file edits, complex debugging, architecture decisions). Solves long-running agent context exhaustion by enabling fresh agents to continue with zero ambiguity.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
             "automation",
+            "backend",
             "media",
             "ai"
           ],
@@ -6990,11 +7005,12 @@
           "name": "Self Improving Agent",
           "originalName": "self-improving-agent",
           "categoryId": "automation-agents",
-          "descriptionPtBr": "Ajuda a automatizar tarefas, coordenar agentes, operar browser/MCP ou criar fluxos assistidos. Útil quando Self Improving Agent precisa reduzir trabalho manual ou conectar ferramentas. Tags: automation, ai.",
+          "descriptionPtBr": "Ajuda a automatizar tarefas, coordenar agentes, operar browser/MCP ou criar fluxos assistidos. Útil quando Self Improving Agent precisa reduzir trabalho manual ou conectar ferramentas. Tags: automation, backend, ai.",
           "descriptionOriginal": "A universal self-improving agent that learns from ALL skill experiences. Uses multi-memory architecture (semantic + episodic + working) to continuously evolve the codebase. Auto-triggers on skill completion/error with hooks-based self-correction.",
           "whyWeHaveIt": "Specialized capability documented for future use",
           "tags": [
             "automation",
+            "backend",
             "ai"
           ],
           "path": "skills/self-improving-agent",
@@ -7014,11 +7030,12 @@
           "name": "Self Improving Agent",
           "originalName": "self-improving-agent",
           "categoryId": "automation-agents",
-          "descriptionPtBr": "Ajuda a automatizar tarefas, coordenar agentes, operar browser/MCP ou criar fluxos assistidos. Útil quando Self Improving Agent precisa reduzir trabalho manual ou conectar ferramentas. Tags: automation, ai.",
+          "descriptionPtBr": "Ajuda a automatizar tarefas, coordenar agentes, operar browser/MCP ou criar fluxos assistidos. Útil quando Self Improving Agent precisa reduzir trabalho manual ou conectar ferramentas. Tags: automation, backend, ai.",
           "descriptionOriginal": "A universal self-improving agent that learns from ALL skill experiences. Uses multi-memory architecture (semantic + episodic + working) to continuously evolve the codebase. Auto-triggers on skill completion/error with hooks-based self-correction.",
           "whyWeHaveIt": "Specialized capability documented for future use",
           "tags": [
             "automation",
+            "backend",
             "ai"
           ],
           "path": "skills/self-improving-agent--charon-fan-agent-playbook",
@@ -7292,8 +7309,8 @@
         "database",
         "laravel"
       ],
-      "count": 55,
-      "installableCount": 55,
+      "count": 56,
+      "installableCount": 56,
       "skills": [
         {
           "id": "api-contract-checker",
@@ -7464,10 +7481,13 @@
           "name": "Architecture Review",
           "originalName": "architecture-review",
           "categoryId": "backend-architecture",
-          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a Architecture Review. Tags: media.",
+          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a Architecture Review. Tags: backend, media.",
           "descriptionOriginal": "Review a system architecture for scalability, reliability, and maintainability. Use when a senior developer needs to critique a design.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
-          "tags": "media",
+          "tags": [
+            "backend",
+            "media"
+          ],
           "path": "skills/architecture-review",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -7705,10 +7725,13 @@
           "name": "Excalidraw Diagram Generator",
           "originalName": "excalidraw-diagram-generator",
           "categoryId": "backend-architecture",
-          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a Excalidraw Diagram Generator. Tags: media.",
+          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a Excalidraw Diagram Generator. Tags: backend, media.",
           "descriptionOriginal": "Generate Excalidraw diagrams from natural language descriptions. Use when asked to \"create a diagram\", \"make a flowchart\", \"visualize a process\", \"draw a system architecture\", \"create a mind map\", or \"generate an Excalidraw file\". Supports flowcharts, relationship diagrams, mind maps, and system architecture diagrams. Outputs .excalidraw JSON files that can be opened directly in Excalidraw.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
-          "tags": "media",
+          "tags": [
+            "backend",
+            "media"
+          ],
           "path": "skills/excalidraw-diagram-generator",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -7771,10 +7794,13 @@
           "name": "Feature Design Assistant",
           "originalName": "feature-design-assistant",
           "categoryId": "backend-architecture",
-          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a Feature Design Assistant. Tags: media.",
+          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a Feature Design Assistant. Tags: backend, media.",
           "descriptionOriginal": "Turn ideas into fully formed designs and specs through natural collaborative dialogue. Use when planning new features, designing architecture, or making significant changes to the codebase.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
-          "tags": "media",
+          "tags": [
+            "backend",
+            "media"
+          ],
           "path": "skills/davila7-claude-code-templates_149a7f65__development__feature-design-assistant",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -7884,6 +7910,27 @@
           "sourceUrl": null
         },
         {
+          "id": "improve-codebase-architecture",
+          "slug": "improve-codebase-architecture",
+          "name": "Improve Codebase Architecture",
+          "originalName": "improve-codebase-architecture",
+          "categoryId": "backend-architecture",
+          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a Improve Codebase Architecture. Tags: backend.",
+          "descriptionOriginal": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+          "whyWeHaveIt": "Engineering quality, safety, and delivery",
+          "tags": "backend",
+          "path": "skills/improve-codebase-architecture",
+          "target": "codex",
+          "defaultInstallRoot": "~/.codex/skills",
+          "alternateInstallRoots": [
+            "~/.agents/skills"
+          ],
+          "hasSkillFile": true,
+          "installable": true,
+          "system": false,
+          "sourceUrl": "https://skills.sh/mattpocock/skills/improve-codebase-architecture"
+        },
+        {
           "id": "laravel-performance-eager-loading",
           "slug": "laravel-performance-eager-loading",
           "name": "Laravel Performance Eager Loading",
@@ -7962,11 +8009,12 @@
           "name": "Multi Region Strategy",
           "originalName": "multi-region-strategy",
           "categoryId": "backend-architecture",
-          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a Multi Region Strategy. Tags: seo, media, business.",
+          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a Multi Region Strategy. Tags: seo, backend, media, business.",
           "descriptionOriginal": "Design a multi-region architecture strategy. Use when a senior developer needs geo-redundant planning.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
             "seo",
+            "backend",
             "media",
             "business"
           ],
@@ -8032,10 +8080,13 @@
           "name": "Next Forge",
           "originalName": "next-forge",
           "categoryId": "backend-architecture",
-          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a Next Forge. Tags: product.",
+          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a Next Forge. Tags: product, backend.",
           "descriptionOriginal": "Expert assistance for next-forge — a production-grade Turborepo template for Next.js SaaS apps. Triggers on questions about next-forge installation, setup, architecture, packages, customization, deployment, and development workflows.",
           "whyWeHaveIt": "Founder, product, and operations leverage",
-          "tags": "product",
+          "tags": [
+            "product",
+            "backend"
+          ],
           "path": "skills/next-forge",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -8477,10 +8528,13 @@
           "name": "System Design Draft",
           "originalName": "system-design-draft",
           "categoryId": "backend-architecture",
-          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a System Design Draft. Tags: media.",
+          "descriptionPtBr": "Ajuda em backend, APIs, arquitetura, bancos, autenticação ou integrações. Útil para projetar, implementar e revisar soluções técnicas relacionadas a System Design Draft. Tags: backend, media.",
           "descriptionOriginal": "Draft a practical system design for a feature. Use when a mid-level developer needs a starting architecture.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
-          "tags": "media",
+          "tags": [
+            "backend",
+            "media"
+          ],
           "path": "skills/system-design-draft",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -8981,10 +9035,11 @@
           "name": "gcp Cloud run",
           "originalName": "gcp-cloud-run",
           "categoryId": "devops-cloud",
-          "descriptionPtBr": "Ajuda em deploy, cloud, CI/CD, ambientes, GitHub, Vercel, Azure ou operação técnica. Útil para instalar, configurar, publicar ou diagnosticar fluxos relacionados a gcp Cloud run. Tags: devops, media.",
+          "descriptionPtBr": "Ajuda em deploy, cloud, CI/CD, ambientes, GitHub, Vercel, Azure ou operação técnica. Útil para instalar, configurar, publicar ou diagnosticar fluxos relacionados a gcp Cloud run. Tags: backend, devops, media.",
           "descriptionOriginal": "Specialized skill for building production-ready serverless applications on GCP. Covers Cloud Run services (containerized), Cloud Run Functions (event-driven), cold start optimization, and event-driven architecture with Pub/Sub.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
+            "backend",
             "devops",
             "media"
           ],
@@ -11049,10 +11104,13 @@
           "name": "Critique",
           "originalName": "critique",
           "categoryId": "quality-security",
-          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Critique. Tags: media.",
+          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Critique. Tags: backend, media.",
           "descriptionOriginal": "Evaluate design from a UX perspective, assessing visual hierarchy, information architecture, emotional resonance, cognitive load, and overall quality with quantitative scoring, persona-based testing, and actionable feedback. Use when the user asks to review, critique, evaluate, or give feedback on a design or component.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
-          "tags": "media",
+          "tags": [
+            "backend",
+            "media"
+          ],
           "path": "skills/critique",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -12685,10 +12743,11 @@
           "name": "Nestjs Expert",
           "originalName": "nestjs-expert",
           "categoryId": "quality-security",
-          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Nestjs Expert. Tags: security, testing.",
+          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Nestjs Expert. Tags: backend, security, testing.",
           "descriptionOriginal": "Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js authentication. Use PROACTIVELY for any Nest.js application issues including architecture decisions, testing strategies, performance optimization, or debugging complex dependency injection problems. If a specialized expert is a better fit, I will recommend switching and stop.",
           "whyWeHaveIt": "Engineering quality, safety, and delivery",
           "tags": [
+            "backend",
             "security",
             "testing"
           ],
@@ -12803,11 +12862,12 @@
           "name": "Nodejs Best Practices",
           "originalName": "nodejs-best-practices",
           "categoryId": "quality-security",
-          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Nodejs Best Practices. Tags: seo, security, content.",
+          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Nodejs Best Practices. Tags: seo, backend, security, content.",
           "descriptionOriginal": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.",
           "whyWeHaveIt": "Website, SEO, content, and go-to-market execution",
           "tags": [
             "seo",
+            "backend",
             "security",
             "content"
           ],
@@ -13020,10 +13080,11 @@
           "name": "Plugin Structure",
           "originalName": "Plugin Structure",
           "categoryId": "quality-security",
-          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Plugin Structure. Tags: media, ai.",
+          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Plugin Structure. Tags: backend, media, ai.",
           "descriptionOriginal": "This skill should be used when the user asks to \"create a plugin\", \"scaffold a plugin\", \"understand plugin structure\", \"organize plugin components\", \"set up plugin.json\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"add commands/agents/skills/hooks\", \"configure auto-discovery\", or needs guidance on plugin directory layout, manifest configuration, component organization, file naming conventions, or Claude Code plugin architecture best practices.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
+            "backend",
             "media",
             "ai"
           ],
@@ -13208,11 +13269,12 @@
           "name": "Production Code Audit",
           "originalName": "production-code-audit",
           "categoryId": "quality-security",
-          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Production Code Audit. Tags: product, testing.",
+          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Production Code Audit. Tags: product, backend, testing.",
           "descriptionOriginal": "Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations",
           "whyWeHaveIt": "Founder, product, and operations leverage",
           "tags": [
             "product",
+            "backend",
             "testing"
           ],
           "path": "skills/davila7-claude-code-templates_149a7f65__development__production-code-audit",
@@ -14053,10 +14115,11 @@
           "name": "Security Threat Model",
           "originalName": "security-threat-model",
           "categoryId": "quality-security",
-          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Security Threat Model. Tags: security, media, ai.",
+          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Security Threat Model. Tags: backend, security, media, ai.",
           "descriptionOriginal": "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
+            "backend",
             "security",
             "media",
             "ai"
@@ -14078,10 +14141,11 @@
           "name": "Security Threat Model",
           "originalName": "security-threat-model",
           "categoryId": "quality-security",
-          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Security Threat Model. Tags: security, media, ai.",
+          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Security Threat Model. Tags: backend, security, media, ai.",
           "descriptionOriginal": "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
+            "backend",
             "security",
             "media",
             "ai"
@@ -14199,11 +14263,12 @@
           "name": "Senior Fullstack",
           "originalName": "senior-fullstack",
           "categoryId": "quality-security",
-          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Senior Fullstack. Tags: react, media.",
+          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Senior Fullstack. Tags: react, backend, media.",
           "descriptionOriginal": "Comprehensive fullstack development skill for building complete web applications with React, Next.js, Node.js, GraphQL, and PostgreSQL. Includes project scaffolding, code quality analysis, architecture patterns, and complete tech stack guidance. Use when building new projects, analyzing code quality, implementing design patterns, or setting up development workflows.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
             "react",
+            "backend",
             "media"
           ],
           "path": "skills/davila7-claude-code-templates_149a7f65__development__senior-fullstack",
@@ -14275,11 +14340,12 @@
           "name": "Senior Security",
           "originalName": "senior-security",
           "categoryId": "quality-security",
-          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Senior Security. Tags: automation, security, media.",
+          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Senior Security. Tags: automation, backend, security, media.",
           "descriptionOriginal": "Comprehensive security engineering skill for application security, penetration testing, security architecture, and compliance auditing. Includes security assessment tools, threat modeling, crypto implementation, and security automation. Use when designing security architecture, conducting penetration tests, implementing cryptography, or performing security audits.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
             "automation",
+            "backend",
             "security",
             "media"
           ],
@@ -14453,11 +14519,12 @@
           "name": "Site Architecture",
           "originalName": "site-architecture",
           "categoryId": "quality-security",
-          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Site Architecture. Tags: seo, testing, content, media.",
+          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Site Architecture. Tags: seo, backend, testing, content.",
           "descriptionOriginal": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema-markup.",
           "whyWeHaveIt": "Website, SEO, content, and go-to-market execution",
           "tags": [
             "seo",
+            "backend",
             "testing",
             "content",
             "media",
@@ -14602,10 +14669,13 @@
           "name": "Software Architecture",
           "originalName": "software-architecture",
           "categoryId": "quality-security",
-          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Software Architecture. Tags: media.",
+          "descriptionPtBr": "Ajuda a revisar qualidade, testes, acessibilidade, segurança, lint, auditoria ou riscos técnicos. Útil para encontrar problemas e orientar correções relacionadas a Software Architecture. Tags: backend, media.",
           "descriptionOriginal": "Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
-          "tags": "media",
+          "tags": [
+            "backend",
+            "media"
+          ],
           "path": "skills/davila7-claude-code-templates_149a7f65__development__software-architecture",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -15713,10 +15783,11 @@
           "name": "Architecture",
           "originalName": "architecture",
           "categoryId": "content-media",
-          "descriptionPtBr": "Ajuda a produzir, revisar ou estruturar conteúdo, documentação, áudio, vídeo, imagens, apresentações ou storytelling. Útil para materiais relacionados a Architecture. Tags: content, media.",
+          "descriptionPtBr": "Ajuda a produzir, revisar ou estruturar conteúdo, documentação, áudio, vídeo, imagens, apresentações ou storytelling. Útil para materiais relacionados a Architecture. Tags: backend, content, media.",
           "descriptionOriginal": "Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
+            "backend",
             "content",
             "media"
           ],
@@ -16021,12 +16092,13 @@
           "name": "Browser Extension Builder",
           "originalName": "browser-extension-builder",
           "categoryId": "content-media",
-          "descriptionPtBr": "Ajuda a produzir, revisar ou estruturar conteúdo, documentação, áudio, vídeo, imagens, apresentações ou storytelling. Útil para materiais relacionados a Browser Extension Builder. Tags: seo, automation, content.",
+          "descriptionPtBr": "Ajuda a produzir, revisar ou estruturar conteúdo, documentação, áudio, vídeo, imagens, apresentações ou storytelling. Útil para materiais relacionados a Browser Extension Builder. Tags: seo, automation, backend, content.",
           "descriptionOriginal": "Expert in building browser extensions that solve real problems - Chrome, Firefox, and cross-browser extensions. Covers extension architecture, manifest v3, content scripts, popup UIs, monetization strategies, and Chrome Web Store publishing. Use when: browser extension, chrome extension, firefox addon, extension, manifest v3.",
           "whyWeHaveIt": "Website, SEO, content, and go-to-market execution",
           "tags": [
             "seo",
             "automation",
+            "backend",
             "content"
           ],
           "path": "skills/davila7-claude-code-templates_149a7f65__utilities__browser-extension-builder",
@@ -17963,11 +18035,12 @@
           "name": "Agent Memory mcp",
           "originalName": "agent-memory-mcp",
           "categoryId": "data-ai",
-          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Agent Memory mcp. Tags: automation, ai.",
+          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Agent Memory mcp. Tags: automation, backend, ai.",
           "descriptionOriginal": "A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions).",
           "whyWeHaveIt": "Engineering quality, safety, and delivery",
           "tags": [
             "automation",
+            "backend",
             "ai"
           ],
           "path": "skills/davila7-claude-code-templates_149a7f65__ai-research__agent-memory-mcp",
@@ -17987,11 +18060,12 @@
           "name": "Agent Memory Systems",
           "originalName": "agent-memory-systems",
           "categoryId": "data-ai",
-          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Agent Memory Systems. Tags: automation, ai.",
+          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Agent Memory Systems. Tags: automation, backend, ai.",
           "descriptionOriginal": "Memory is the cornerstone of intelligent agents. Without it, every interaction starts from zero. This skill covers the architecture of agent memory: short-term (context window), long-term (vector stores), and the cognitive architectures that organize them. Key insight: Memory isn't just storage - it's retrieval. A million stored facts mean nothing if you can't find the right one. Chunking, embedding, and retrieval strategies determine whether your agent remembers or forgets. The field is fragm",
           "whyWeHaveIt": "Specialized capability documented for future use",
           "tags": [
             "automation",
+            "backend",
             "ai"
           ],
           "path": "skills/davila7-claude-code-templates_149a7f65__ai-research__agent-memory-systems",
@@ -21527,10 +21601,11 @@
           "name": "Mamba Architecture",
           "originalName": "mamba-architecture",
           "categoryId": "data-ai",
-          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Mamba Architecture. Tags: media, ai.",
+          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Mamba Architecture. Tags: backend, media, ai.",
           "descriptionOriginal": "State-space model with O(n) complexity vs Transformers' O(n²). 5× faster inference, million-token sequences, no KV cache. Selective SSM with hardware-aware design. Mamba-1 (d_state=16) and Mamba-2 (d_state=128, multi-head). Models 130M-2.8B on HuggingFace.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
+            "backend",
             "media",
             "ai"
           ],
@@ -22040,10 +22115,10 @@
           "name": "Nanogpt",
           "originalName": "nanogpt",
           "categoryId": "data-ai",
-          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Nanogpt. Tags: general.",
+          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Nanogpt. Tags: backend.",
           "descriptionOriginal": "Educational GPT implementation in ~300 lines. Reproduces GPT-2 (124M) on OpenWebText. Clean, hackable code for learning transformers. By Andrej Karpathy. Perfect for understanding GPT architecture from scratch. Train on Shakespeare (CPU) or OpenWebText (multi-GPU).",
           "whyWeHaveIt": "Specialized capability documented for future use",
-          "tags": "general",
+          "tags": "backend",
           "path": "skills/davila7-claude-code-templates_149a7f65__ai-research__model-architecture-nanogpt",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -22155,10 +22230,13 @@
           "name": "Nnsight Remote Interpretability",
           "originalName": "nnsight-remote-interpretability",
           "categoryId": "data-ai",
-          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Nnsight Remote Interpretability. Tags: media.",
+          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Nnsight Remote Interpretability. Tags: backend, media.",
           "descriptionOriginal": "Provides guidance for interpreting and manipulating neural network internals using nnsight with optional NDIF remote execution. Use when needing to run interpretability experiments on massive models (70B+) without local GPU resources, or when working with any PyTorch architecture.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
-          "tags": "media",
+          "tags": [
+            "backend",
+            "media"
+          ],
           "path": "skills/davila7-claude-code-templates_149a7f65__ai-research__mechanistic-interpretability-nnsight",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -22387,10 +22465,13 @@
           "name": "Openrlhf Training",
           "originalName": "openrlhf-training",
           "categoryId": "data-ai",
-          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Openrlhf Training. Tags: media.",
+          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Openrlhf Training. Tags: backend, media.",
           "descriptionOriginal": "High-performance RLHF framework with Ray+vLLM acceleration. Use for PPO, GRPO, RLOO, DPO training of large models (7B-70B+). Built on Ray, vLLM, ZeRO-3. 2× faster than DeepSpeedChat with distributed architecture and GPU resource sharing.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
-          "tags": "media",
+          "tags": [
+            "backend",
+            "media"
+          ],
           "path": "skills/davila7-claude-code-templates_149a7f65__ai-research__post-training-openrlhf",
           "target": "codex",
           "defaultInstallRoot": "~/.codex/skills",
@@ -23921,10 +24002,11 @@
           "name": "Rwkv Architecture",
           "originalName": "rwkv-architecture",
           "categoryId": "data-ai",
-          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Rwkv Architecture. Tags: media, ai.",
+          "descriptionPtBr": "Ajuda em dados, IA, análise, pesquisa, modelos, automações inteligentes ou experimentação. Útil para explorar, construir ou validar trabalhos relacionados a Rwkv Architecture. Tags: backend, media, ai.",
           "descriptionOriginal": "RNN+Transformer hybrid with O(n) inference. Linear time, infinite context, no KV cache. Train like GPT (parallel), infer like RNN (sequential). Linux Foundation AI project. Production at Windows, Office, NeMo. RWKV-7 (March 2025). Models up to 14B parameters.",
           "whyWeHaveIt": "Design, artifacts, and visual production",
           "tags": [
+            "backend",
             "media",
             "ai"
           ],
@@ -25853,12 +25935,13 @@
           "name": "Competitor Alternatives",
           "originalName": "competitor-alternatives",
           "categoryId": "business-strategy",
-          "descriptionPtBr": "Ajuda em estratégia, vendas, finanças, pricing, pesquisa de clientes ou tomada de decisão. Útil para orientar escolhas de negócio relacionadas a Competitor Alternatives. Tags: seo, product, content, business.",
+          "descriptionPtBr": "Ajuda em estratégia, vendas, finanças, pricing, pesquisa de clientes ou tomada de decisão. Útil para orientar escolhas de negócio relacionadas a Competitor Alternatives. Tags: seo, product, backend, content.",
           "descriptionOriginal": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' or 'competitive landing pages.' Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables.",
           "whyWeHaveIt": "Website, SEO, content, and go-to-market execution",
           "tags": [
             "seo",
             "product",
+            "backend",
             "content",
             "business"
           ],
@@ -25953,12 +26036,13 @@
           "name": "cto Advisor",
           "originalName": "cto-advisor",
           "categoryId": "business-strategy",
-          "descriptionPtBr": "Ajuda em estratégia, vendas, finanças, pricing, pesquisa de clientes ou tomada de decisão. Útil para orientar escolhas de negócio relacionadas a cto Advisor. Tags: seo, analytics, content, business.",
+          "descriptionPtBr": "Ajuda em estratégia, vendas, finanças, pricing, pesquisa de clientes ou tomada de decisão. Útil para orientar escolhas de negócio relacionadas a cto Advisor. Tags: seo, analytics, backend, content.",
           "descriptionOriginal": "Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Includes tech debt analyzer, team scaling calculator, engineering metrics frameworks, technology evaluation tools, and ADR templates. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, technical debt, team scaling, architecture decisions, technology evaluation, engineering metrics, DORA metrics, or technology strategy.",
           "whyWeHaveIt": "Website, SEO, content, and go-to-market execution",
           "tags": [
             "seo",
             "analytics",
+            "backend",
             "content",
             "business"
           ],

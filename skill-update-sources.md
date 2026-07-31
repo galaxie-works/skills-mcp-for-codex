@@ -13,6 +13,7 @@ Este arquivo funciona como nosso mapa de origem para encontrar atualiza??es, rep
 - [marketing skills](https://github.com/coreyhaines31/marketingskills/tree/main/skills)
 - [ui ux pro max skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/ui-ux-pro-max)
 - [impeccable](https://github.com/pbakaus/impeccable)
+- [mattpocock skills](https://github.com/mattpocock/skills)
 - [skills.sh](https://skills.sh/)
 - [skills](https://mcpmarket.com/tools/skills)
 - [awesome codex skills](https://github.com/ComposioHQ/awesome-codex-skills)

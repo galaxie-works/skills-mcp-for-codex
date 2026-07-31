@@ -131,7 +131,7 @@ function Get-Tags {
     "analytics" = "\banalytics\b|\btracking\b|\bga4\b|\bgoogle analytics\b|\bgsc\b|\bmetrics\b"
     "product" = "\bproduct\b|\bprd\b|\bbacklog\b|\broadmap\b|\bpriorit"
     "automation" = "\bautomation\b|\bbrowser\b|\bagent\b|\bworkflow\b|\bmcp\b|\bscrap|\bcrawl"
-    "backend" = "\bbackend\b|\bapi\b|\bdatabase\b|\bmysql\b|\bsqlite\b|\bprisma\b|\blaravel\b|\bauth\b"
+    "backend" = "\bbackend\b|\bapi\b|\barchitecture\b|\bdatabase\b|\bmysql\b|\bsqlite\b|\bprisma\b|\blaravel\b|\bauth\b"
     "devops" = "\bdeploy\b|\bvercel\b|\bazure\b|\bcloud\b|\bci\b|\bcd\b|\bgithub actions\b|\bdocker\b"
     "security" = "\bsecurity\b|\bpentest\b|\bvulnerab|\bxss\b|\bsql injection\b|\bauthenticat"
     "testing" = "\btest\b|\bqa\b|\bjest\b|\bvitest\b|\blint\b|\baudit\b"

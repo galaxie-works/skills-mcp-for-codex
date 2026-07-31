@@ -3,11 +3,11 @@
 Faithful inventory generated from `C:\Users\consa\.codex\skills`.
 
 Generated: `
-2026-06-02 16:56:13 -03:00
+2026-07-31 00:00:00 -03:00
 `
 
 Count: `
-1207
+1208
 ` top-level skills plus `
 5
 ` skills inside `.system`.
@@ -950,6 +950,7 @@ Count: `
 | `image-enhancer` | `skills/image-enhancer` | Website, SEO, content, and go-to-market execution | Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for preparing images for presentations, documentation, or social media posts. |
 | `imagegen` | `skills/imagegen` | Design, artifacts, and visual production | Use when the user asks to generate or edit images via the OpenAI Image API (for example: generate image, edit/inpaint/mask, background removal or replacement, transparent background, product shots, concept art, covers, or batch variants); run the bundled CLI (`scripts/image_gen.py`) and require `OPENAI_API_KEY` for live calls. |
 | `impeccable` | `skills/impeccable` | Website, SEO, content, and go-to-market execution | Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks. |
+| `improve-codebase-architecture` | `skills/improve-codebase-architecture` | Engineering quality, safety, and delivery | Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick. |
 | `incident-postmortem` | `skills/incident-postmortem` | Engineering quality, safety, and delivery | Draft an incident postmortem with timeline, RCA, and action items. Use when a senior developer needs a structured post-incident report. |
 | `instagram-automation` | `skills/instagram-automation` | Website, SEO, content, and go-to-market execution | Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas. |
 | `instagram-research` | `skills/instagram-research` | Website, SEO, content, and go-to-market execution | \| |

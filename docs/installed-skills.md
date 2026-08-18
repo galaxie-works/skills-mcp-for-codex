@@ -7,7 +7,7 @@ Generated: `
 `
 
 Count: `
-1213
+1214
 ` top-level skills plus `
 5
 ` skills inside `.system`.
@@ -1150,6 +1150,7 @@ Count: `
 | `swiftui-expert-skill` | `skills/swiftui-expert-skill` | Design, artifacts, and visual production | Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, macOS-specific APIs, and iOS 26+ Liquid Glass adoption. Use when building new SwiftUI features, refactoring existing views, reviewing code quality, or adopting modern SwiftUI patterns. |
 | `systematic-debugging` | `skills/systematic-debugging` | Engineering quality, safety, and delivery | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | `system-design-draft` | `skills/system-design-draft` | Design, artifacts, and visual production | Draft a practical system design for a feature. Use when a mid-level developer needs a starting architecture. |
+| `setup-matt-pocock-skills` | `skills/setup-matt-pocock-skills` | Product, planning, and decision quality | Configure a repository for Matt Pocock's engineering skills: issue tracker, triage labels, and domain documentation layout. Run once before using the related engineering skills. |
 | `tailored-resume-generator` | `skills/tailored-resume-generator` | Specialized capability documented for future use | Analyzes job descriptions and generates tailored resumes that highlight relevant experience, skills, and achievements to maximize interview chances |
 | `tailwindcss-advanced-layouts` | `skills/tailwindcss-advanced-layouts` | Design, artifacts, and visual production | Tailwind CSS advanced layout techniques including CSS Grid and Flexbox patterns |
 | `tailwindcss-development` | `skills/tailwindcss-development` | Website, SEO, content, and go-to-market execution | Always invoke when the user's message includes 'tailwind' in any form. Also invoke for: building responsive grid layouts (multi-column card grids, product grids), flex/grid page structures (dashboards with sidebars, fixed topbars, mobile-toggle navs), styling UI components (cards, tables, navbars, pricing sections, forms, inputs, badges), adding dark mode variants, fixing spacing or typography, and Tailwind v3/v4 work. The core use case: writing or fixing Tailwind utility classes in HTML templates (Blade, JSX, Vue). Skip for backend PHP logic, database queries, API routes, JavaScript with no HTML/CSS component, CSS file audits, build tool configuration, and vanilla CSS. |

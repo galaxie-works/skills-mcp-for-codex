@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-18T11:51:09-03:00",
+  "generatedAt": "2026-08-18T11:53:10-03:00",
   "language": "pt-BR",
   "repository": {
     "name": "skills-mcp-for-codex",
@@ -31,8 +31,8 @@
   },
   "counts": {
     "categories": 12,
-    "skills": 1216,
-    "installableSkills": 1211,
+    "skills": 1217,
+    "installableSkills": 1212,
     "systemSkills": 5
   },
   "categories": [
@@ -49,8 +49,8 @@
         "react",
         "shadcn"
       ],
-      "count": 112,
-      "installableCount": 112,
+      "count": 113,
+      "installableCount": 113,
       "skills": [
         {
           "id": "davila7-claude-code-templates_149a7f65__creative-design__game-development__2d-games",
@@ -1849,6 +1849,30 @@
           "installable": true,
           "system": false,
           "sourceUrl": null
+        },
+        {
+          "id": "setup-matt-pocock-skills",
+          "slug": "setup-matt-pocock-skills",
+          "name": "Setup Matt Pocock Skills",
+          "originalName": "setup-matt-pocock-skills",
+          "categoryId": "frontend-ui",
+          "descriptionPtBr": "Ajuda a criar, revisar ou melhorar interfaces com foco em experiência visual, componentes, responsividade e consistência. Útil quando o trabalho envolve Setup Matt Pocock Skills, UI, design system ou padrões frontend. Tags: product, content.",
+          "descriptionOriginal": "Configure a repository for Matt Pocock's engineering skills: issue tracker, triage labels, and domain documentation layout. Run once before using the related engineering skills.",
+          "whyWeHaveIt": "Product, planning, and decision quality",
+          "tags": [
+            "product",
+            "content"
+          ],
+          "path": "skills/setup-matt-pocock-skills",
+          "target": "codex",
+          "defaultInstallRoot": "~/.codex/skills",
+          "alternateInstallRoots": [
+            "~/.agents/skills"
+          ],
+          "hasSkillFile": true,
+          "installable": true,
+          "system": false,
+          "sourceUrl": "https://github.com/mattpocock/skills"
         },
         {
           "id": "shadcn",

@@ -11,15 +11,15 @@
 | Métrica | Valor |
 | --- | ---: |
 | Categorias | 12 |
-| Skills no manifesto | 1216 |
-| Skills instaláveis | 1211 |
+| Skills no manifesto | 1217 |
+| Skills instaláveis | 1212 |
 | Skills de sistema/runtime | 5 |
 
 ## Categorias
 
 | Categoria | ID | Skills | Instaláveis | Descrição |
 | --- | --- | ---: | ---: | --- |
-| <span style="color:#ec4899">&#9679;</span> **Frontend, UI e Design System** | `frontend-ui` | 112 | 112 | Skills para criar interfaces, componentes, layouts, Tailwind, React, shadcn, animações e experiências visuais bonitas. |
+| <span style="color:#ec4899">&#9679;</span> **Frontend, UI e Design System** | `frontend-ui` | 113 | 113 | Skills para criar interfaces, componentes, layouts, Tailwind, React, shadcn, animações e experiências visuais bonitas. |
 | <span style="color:#2563eb">&#9679;</span> **WordPress, Sites e CMS** | `wordpress-web` | 10 | 10 | Skills para WordPress, Elementor, GenerateBlocks, auditoria de sites, páginas institucionais e publicação web. |
 | <span style="color:#f97316">&#9679;</span> **Marketing, Growth e SEO** | `marketing-growth` | 78 | 78 | Skills para SEO, conteúdo, anúncios, analytics, social media, funis, posicionamento e crescimento comercial. |
 | <span style="color:#14b8a6">&#9679;</span> **Produto, Operação e PO** | `product-ops` | 43 | 43 | Skills para priorização, backlog, PRD, discovery, gestão de produto, rotinas executivas e automação do dia a dia. |

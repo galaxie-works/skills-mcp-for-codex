@@ -16,6 +16,7 @@ Este arquivo funciona como nosso mapa de origem para encontrar atualiza??es, rep
 - [mattpocock skills](https://github.com/mattpocock/skills)
 - [ai agents public](https://github.com/vasilyu1983/ai-agents-public)
 - [caveman](https://github.com/juliusbrussee/caveman)
+- [setup matt pocock skills](https://skills.sh/mattpocock/skills/setup-matt-pocock-skills)
 - [skills.sh](https://skills.sh/)
 - [skills](https://mcpmarket.com/tools/skills)
 - [awesome codex skills](https://github.com/ComposioHQ/awesome-codex-skills)

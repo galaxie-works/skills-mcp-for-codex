@@ -25,42 +25,42 @@
       "type": "string"
     },
     "repository": {
-      "type": "object",
       "required": [
         "name",
         "owner",
         "url",
         "branch"
-      ]
+      ],
+      "type": "object"
     },
     "installer": {
-      "type": "object",
       "required": [
         "recommendedStack",
         "defaultTarget",
         "supportedTargets",
         "safeInstallFlow"
-      ]
+      ],
+      "type": "object"
     },
     "installRoots": {
-      "type": "object",
       "required": [
         "codex",
         "agents"
-      ]
+      ],
+      "type": "object"
     },
     "counts": {
-      "type": "object",
       "required": [
         "categories",
         "skills",
         "installableSkills",
         "systemSkills"
-      ]
+      ],
+      "type": "object"
     },
     "categories": {
+      "type": "array",
       "items": {
-        "type": "object",
         "required": [
           "id",
           "name",
@@ -70,9 +70,9 @@
           "count",
           "installableCount",
           "skills"
-        ]
-      },
-      "type": "array"
+        ],
+        "type": "object"
+      }
     }
   }
 }

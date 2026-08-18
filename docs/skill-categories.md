@@ -11,8 +11,8 @@
 | Métrica | Valor |
 | --- | ---: |
 | Categorias | 12 |
-| Skills no manifesto | 1213 |
-| Skills instaláveis | 1208 |
+| Skills no manifesto | 1216 |
+| Skills instaláveis | 1211 |
 | Skills de sistema/runtime | 5 |
 
 ## Categorias
@@ -27,10 +27,10 @@
 | <span style="color:#0ea5e9">&#9679;</span> **Backend, APIs e Arquitetura** | `backend-architecture` | 57 | 57 | Skills para APIs, Laravel, bancos, autenticação, arquitetura, padrões backend e integrações complexas. |
 | <span style="color:#22c55e">&#9679;</span> **DevOps, Cloud e Deploy** | `devops-cloud` | 54 | 54 | Skills para Vercel, Azure, CI/CD, GitHub Actions, deploy, infraestrutura, ambientes e observabilidade. |
 | <span style="color:#ef4444">&#9679;</span> **Qualidade, Testes e Segurança** | `quality-security` | 235 | 235 | Skills para QA, auditoria, acessibilidade, testes, lint, revisão, segurança e hardening. |
-| <span style="color:#f59e0b">&#9679;</span> **Conteúdo, Áudio, Vídeo e Mídia** | `content-media` | 93 | 93 | Skills para escrita, documentação, storytelling, áudio, vídeo, imagens, apresentações e conteúdo multimídia. |
+| <span style="color:#f59e0b">&#9679;</span> **Conteúdo, Áudio, Vídeo e Mídia** | `content-media` | 94 | 94 | Skills para escrita, documentação, storytelling, áudio, vídeo, imagens, apresentações e conteúdo multimídia. |
 | <span style="color:#6366f1">&#9679;</span> **Dados, IA e Pesquisa** | `data-ai` | 353 | 353 | Skills para dados, IA, modelos, pesquisa, análise, ciência, bancos vetoriais e experimentação. |
 | <span style="color:#64748b">&#9679;</span> **Negócios, Finanças e Estratégia** | `business-strategy` | 22 | 22 | Skills para estratégia, CFO/CMO/COO, pricing, vendas, customer research, planejamento e tomada de decisão. |
-| <span style="color:#475569">&#9679;</span> **Sistema, Runtime e Utilitários** | `system-runtime` | 105 | 100 | Skills internos, utilitários técnicos e capacidades de suporte que mantêm o ambiente Codex funcionando. |
+| <span style="color:#475569">&#9679;</span> **Sistema, Runtime e Utilitários** | `system-runtime` | 107 | 102 | Skills internos, utilitários técnicos e capacidades de suporte que mantêm o ambiente Codex funcionando. |
 
 ## Amostras por Categoria
 

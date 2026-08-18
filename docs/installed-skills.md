@@ -7,7 +7,7 @@ Generated: `
 `
 
 Count: `
-1210
+1213
 ` top-level skills plus `
 5
 ` skills inside `.system`.
@@ -941,7 +941,10 @@ Count: `
 | `github-issues` | `skills/github-issues` | Engineering quality, safety, and delivery | Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update existing issues, add labels/assignees/milestones, set issue fields (dates, priority, custom fields), set issue types, manage issue workflows, link issues, add dependencies, or track blocked-by/blocking relationships. Triggers on requests like "create an issue", "file a bug", "request a feature", "update issue X", "set the priority", "set the start date", "link issues", "add dependency", "blocked by", "blocking", or any GitHub issue management task. |
 | `github-release` | `skills/github-release` | Engineering quality, safety, and delivery | > |
 | `graphql-query-optimizer` | `skills/graphql-query-optimizer` | Specialized capability documented for future use | Optimize GraphQL queries and resolvers for performance. Use when a mid-level developer needs to reduce N+1 or payload size. |
+| `cavecrew` | `skills/cavecrew` | Engineering quality, safety, and delivery | Decision guide for delegating investigation, small edits, and diff reviews to compressed caveman-style subagents. Use when delegating work or saving context matters. |
 | `grill-me` | `skills/grill-me--mattpocock-skills` | Design, artifacts, and visual production | Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me". |
+| `grill-me` | `skills/grill-me` | Product, planning, and decision quality | A relentless interview to sharpen a plan or design. Use when a decision, design, or implementation needs its assumptions stress-tested. |
+| `grill-with-docs` | `skills/grill-with-docs` | Product, planning, and decision quality | Relentlessly interview the user while creating ADRs and a glossary as the plan or design becomes precise. Use for decisions that need durable documentation. |
 | `grimoire-polymarket` | `skills/grimoire-polymarket` | Engineering quality, safety, and delivery | Queries Polymarket market data and CLOB state, and manages CLOB orders via the Grimoire venue CLI wrapper backed by the official Polymarket CLI. |
 | `gws-docs-write` | `skills/gws-docs` | Specialized capability documented for future use | Google Docs: Append text to a document. |
 | `gws-drive-upload` | `skills/gws-drive` | Specialized capability documented for future use | Google Drive: Upload a file with automatic metadata. |

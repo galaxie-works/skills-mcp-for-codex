@@ -21,8 +21,8 @@
       "type": "string"
     },
     "language": {
-      "type": "string",
-      "const": "pt-BR"
+      "const": "pt-BR",
+      "type": "string"
     },
     "repository": {
       "type": "object",
@@ -59,7 +59,6 @@
       ]
     },
     "categories": {
-      "type": "array",
       "items": {
         "type": "object",
         "required": [
@@ -72,7 +71,8 @@
           "installableCount",
           "skills"
         ]
-      }
+      },
+      "type": "array"
     }
   }
 }

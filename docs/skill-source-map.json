@@ -858,5 +858,35 @@
     "local_target": "C:\\Users\\consa\\.codex\\skills\\software-architecture-design",
     "local_exists": true,
     "blob_count": 0
+  },
+  {
+    "url": "https://github.com/mattpocock/skills",
+    "repo": "mattpocock/skills",
+    "repo_slug": "mattpocock-skills",
+    "source_prefix": "",
+    "skill_name": "grill-with-docs",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\grill-with-docs",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://github.com/mattpocock/skills",
+    "repo": "mattpocock/skills",
+    "repo_slug": "mattpocock-skills",
+    "source_prefix": "",
+    "skill_name": "grill-me",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\grill-me",
+    "local_exists": true,
+    "blob_count": 0
+  },
+  {
+    "url": "https://github.com/juliusbrussee/caveman",
+    "repo": "juliusbrussee/caveman",
+    "repo_slug": "juliusbrussee-caveman",
+    "source_prefix": "",
+    "skill_name": "cavecrew",
+    "local_target": "C:\\Users\\consa\\.codex\\skills\\cavecrew",
+    "local_exists": true,
+    "blob_count": 0
   }
 ]
